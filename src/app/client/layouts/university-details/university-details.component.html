@@ -1,0 +1,97 @@
+<main>
+    <!-- hero-area-start -->
+    <div class="hero-arera course-item-height" data-background="assets/img/banner/australian-national-university.jpg">
+
+    </div>
+    <!-- hero-area-end -->
+    <!-- course-details-area-start -->
+    <section class="course-detalis-area pb-90">
+        <div class="container">
+            <div class="row">
+                <div class=" col-xxl-8 col-xl-8">
+                    <div class="course-detalis-wrapper mb-30">
+                        <div class="course-heading mb-20">
+                            <h2>{{university.name}}</h2>
+
+                        </div>
+                        <div class="course-detelis-meta">
+
+                            <div class="course-meta-wrapper ">
+                                <div class="course-meta-img-country">
+                                    <a><img [src]="university.country_flag" class="univer-country-img"
+                                            onError="this.src='/assets/img/other/default-image.png'"
+                                            alt="course-meta"></a>
+                                </div>
+                                <div class="course-meta-text">
+                                    <span>Country</span>
+                                    <h6><a>{{university.country_name}}</a></h6>
+                                </div>
+                            </div>
+
+                            <div class="course-update ">
+                                <p>Last Update</p>
+                                <span class="ms-2">{{university.created_at | dateFormat}}</span>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="course-description pt-45 pb-30">
+
+                            <div class="col-lg-12 border-0">
+                                <quill-editor [readOnly]="true" theme="snow"
+                                    style=" border:0px; width: 100%;height: 100%;" [modules]="{ toolbar: false }"
+                                    format="html" [readOnly]="true" [(ngModel)]="university.content" placeholder="">
+
+                                </quill-editor>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xxl-4 col-xl-4 col-lg-12 col-md-12">
+                    <div class="course-video-widget">
+                        <div class="course-widget-wrapper mb-30">
+                            <div class="academic-thumb mb-20">
+                                <img [src]="university.logo" onError="this.src='/assets/img/other/default-image.png'"
+                                    alt="No Image'" class="univer-cover-img ">
+
+
+                            </div>
+                            <div class="course-video-price">
+                                {{"startprice-title"|translate}}:&ensp;&ensp;<span>{{university.start_price}}</span>
+                            </div>
+                            <div class="course-video-body">
+                                <div class="course-vide-icon">
+                                    <i class="flaticon-menu-2"></i>
+                                    <span>&ensp;{{"fUniversity_faculties_title"|translate}} </span>
+                                </div>
+                                <hr>
+                                <ul class="">
+
+
+                                    <li *ngFor="let faculty  of university.faculties ">
+                                        <div class="course-vide-icon">
+                                            <span>{{faculty.name}}</span>
+                                        </div>
+                                    </li>
+
+
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>

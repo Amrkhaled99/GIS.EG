@@ -1,0 +1,18 @@
+/* .active{
+    color: #fff !important;
+    background-color: #0d6efd;
+    padding-right:  2.5px;
+} */
+
+/* .active  {
+    color: #28A745;
+} */
+.active a {
+    color: #d49e69;
+    font-size: 17px;
+    /* background:#FFB013; */
+    /* border-radius: 50%; */
+    align-items: center;
+
+
+}

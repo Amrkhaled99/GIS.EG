@@ -1,0 +1,85 @@
+<main>
+
+
+
+
+    <!-- Start Banner Area -->
+    <div class="hero-arera course-item-height" data-background="assets/img/banner/faqs.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-course-1-text">
+                        <h2>{{'nav_faqs_title'| translate}}</h2>
+                    </div>
+
+                    <div class="course-title-breadcrumb">
+                        <nav>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item slider-title"><a (click)="backToHome()">{{
+                                        'slider_first_title' |translate}}</a>
+                                </li>
+                                <li class="slider-title"><span>&ensp;/&ensp;{{'nav_faqs_title'| translate}}</span></li>
+
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner Area -->
+
+
+
+
+    <!-- faq-area-start -->
+    <div class="faq-topic-area pb-90">
+        <div class="container">
+            <div class="row">
+                <div class="faq-topic-title text-center pt-55 mb-45">
+                    <!-- <h3>{{'main-faq-title'|translate}}</h3> -->
+                </div>
+
+                <app-tostart-card></app-tostart-card>
+
+
+            </div>
+
+
+
+
+
+            <div class="faq-tabs-area mt-50">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="faq-nav-content">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                    aria-labelledby="home-tab">
+                                    <div class="faq-area pt-30 pb-30">
+                                        <div class="row">
+                                            <div class="col-xl-12">
+                                                <div class="faq-tittle-info text-center pt-55 mb-50">
+                                                    <h3>{{'faqs-questions-title'|translate}}</h3>
+                                                </div>
+                                            </div>
+
+
+                                            <app-question-card [faqs]="faqs"></app-question-card>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- faq-area-end -->
+
+
+</main>

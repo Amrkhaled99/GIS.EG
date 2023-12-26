@@ -1,0 +1,207 @@
+{ 
+    
+
+"nav_home_title":"Home",
+"nav_blogs_title":"Blogs",
+"nav_universities_title":"universities",
+"nav_faqs_title" :" FAQ's",
+"nav_aboutUs_title" :"About Us",
+"nav_contactUs_title" :"Contact Us",
+"nav_applyNow_title" :"Apply Now",
+
+
+"slider_first_title":"Home",
+"slider_blogs_title":"Blogs",
+"view_details":"View Details",
+
+
+"bannner-title":"START YOUR CAREER",
+"now-label":"Join now",
+
+
+"fUniversity_Countries_title":"Countries",
+"fUniversity_faculties_title":"Faculties",
+"university_country":"Country",
+
+"nav_University_Details":"University Details",
+"nav_Blog_Details":"Blog Details",
+"No_Blogs_Data_Available_Msg":"No Data Available",
+"No_University_Data_Available_Msg":"No Data Available",
+"country_title": "Country",
+"Faculties-title":"Faculties",
+"university-hint":"Search...",
+"Filter-title":"Filter",
+
+
+
+
+"message-title-shape1":"Welcome to ",
+"message-subTitle-shape":"MASA",
+"message-title-shape2":"Education Consultant",
+"message-profile":"MASA: Your Gateway to Lifelong Learning and Career Success",
+"message-paragraph1":"MASA goes beyond providing information; we offer personalized guidance, scholarship pportunities, and expert career counseling to ensure you make the most of your educational journey.",
+"message-paragraph2":" Let MASA be your trusted education consultant as your embark on a path to discover your true potential and achieve your career goals.",
+
+"discover-main-title":"Discover yourself",
+"discover-title-shape1":"Find Your Career with",
+"discover-subTitle-shape":"MASA",
+"View-universities-btn":"View universities",
+"University_label":"University ",
+
+"university-card1-title":"Undergraduate",
+"university-card1-paragraph1":"Start your journey with the right undergraduate program.",
+"university-card2-title":"Postgraduate",
+"university-card2-paragraph1":"Elevate your career with postgraduate opportunities.",
+
+
+
+
+"testimonial1-area-title":"What Students",
+"testimonial-area-subtitle":" Think and Say About",
+"testimonial2-area-title":"MASA",
+
+
+
+"campus-title-shape1":"Education is the",
+"campus-title-shape2":"possible to everyone",
+"campus-subTitle-shape":"Platform that makes",
+"content-title1":"Students Thrive with ",
+"content-subtitle":"MASA",
+"content-title2":" Education Consultant",
+"content-paragraph":"At MASA Education Consultant, we are dedicated to ensuring that students not only receive exceptional education but also enjoy their academic journey to the fullest. ",
+"content-option1":"Education Consultancy",
+"content-option2":"Offer Letter",
+"content-option3":"Visa preparation",
+"content-option4":"Student housing services",
+"content-option5":"Follow-up!",
+
+
+"blog-area-title1":"Read Our",
+"blog-area-subtitle":" Latest",
+"blog-area-title2":" Blogs",
+"view-all-blogs-button":"View all Blogs",
+"blog-hint":"Search...",
+
+
+"footer-paragraph":"MASA is your trusted education consultant, dedicated to helping you  find the right path to academic and career success.",
+
+"partner-area-title1":"Our",
+"partner-area-subtitle":"Global",
+"partner-area-title2":"Honorable Partners",
+"partner-paragraph":"At MASA, we're proud to collaborate with our esteemed global partners who share our commitment to education excellence. Together, we empower you to shape your educational journey precisely as you envision it.",
+
+
+"choose-area-title1": "Why Choose",
+"choose-area-subTitle": "Choose",
+"choose-area-title2": "MASA Education Consultant?",
+"choose-area-paragraph": "Choosing an education consultant is a pivotal decision on your journey toward academic and career success. MASA Education Consultant stands out as the ideal choice for several compelling reasons:",
+"choose-area-option1": "Personalized Guidance",
+"choose-area-option2": "Global Reach",
+"choose-area-option3": "Comprehensive Information",
+"choose-area-option4": "Community of Success",
+"choose-area-option5": "Expertise and Support",
+
+
+
+"features-area-title":"Guiding Principles",
+"OurValues-title":"Our Values",
+"OurValues-paragraph":"Professionalism:In the way we provide services, the position we bring, the relationships we build.Respect:For those we serve and those we work with.",
+"OurVision-title":"Our Vision",
+"OurValues-paragraph":"To become a leader in the global education consultancy market through connecting students to international quality education, global opportunities and international job prospects that secure their bright future.",
+
+
+"features-video-title1":"Get",
+"features-video-subTitle1":"help",
+"features-video-title2":"from",
+"features-video-title3":"this video",
+
+"counter-Students-Enrolled":"Students Enrolled",
+"counter-Students-Universities":"Universities",
+"counter-Students-Majors":"Majors",
+
+"ourLocation-title":"Our Location",
+"support-section-title":"Support Contact",
+"Phone-title":"Phone",
+"Mobile-label":"Mobile :",
+"Hotline-label":"Hotline :",
+"location-label":"Location",
+"Email-title":"Email",
+"email1-value":"info@masaeducation.co",
+"email2-value":"Contact@masaeducation.co",
+"location-value":"Cairo,Egypt,",
+
+"main-faq-title":"How to start",
+"faqs-questions-title":"Frequently Asked Queastions",
+"faqs-title":"FAQ Help Topic",
+"mobile-tab":"Mobile & Tab",
+"mobile-paragraph":"Control and browse courses on mobile and tab device",
+"Profile-tab":"Account / Profile",
+"Profile-paragraph":"Manage your account and profile easily smoothly",
+"Troubleshooting-tab":"Troubleshooting",
+"Troubleshooting-paragraph":"If you experiencing the technical browsing issue",
+"GettingStarted-tab":"Getting StartedGetting Started",
+"GettingStarted-paragraph":"Learn how Eduman works and how to start learning.",
+"CourseTracking-tab":"Course Tracking",
+"CourseTracking-paragraph":"Track your course and manage easily at anywhere",
+"Purchase-tab":"Purchase Course",
+"Purchase-paragraph":"You'll be knowing our purchase policy for course",
+"RefundMethod-tab":"Refund Method",
+"RefundMetho-paragraph":"Manage your course refund policy easily smoothly",
+"Admission-tab":"Admission",
+"Admission-paragraph":"Read how to get admission to your favorite course",
+"faq-answer-title":"FAQ  Answer Guide",
+"close-btn-title":"close",
+
+
+"firstName_label":"First Name:",
+"middleName_label":"Middle Name:",
+"lastName_label":"Last Name:",
+"Birthday_label":"Birthday:",
+"Nationality_label":"Nationality:",
+"Phone_label":"Phone:",
+"email_label":"Email:",
+"Address_label":"Address:",
+"majors_label":"Preferred majors:",
+"countries_label":"Preferred Countries:",
+"universities_label":"Preferred Universities:",
+"documents_label":"Documents:",
+"browse_files_label":"Browse Files",
+"hint_MultiSelect":"Select...",
+
+
+"main-title-applyForm": "Application Form",
+"firstName_err_msg":" First Name is required",
+"middleName_err_msg":"  Middle Name is required ",
+"lastName_err_msg":"Last Name is required",
+"Birthday_err_msg":"Birthday is required",
+"Nationality_err_msg":"Nationality is required",
+"Phone_err_msg":"Phone is required",
+"Invalid_phone_err_msg":"Invalid phone number format",
+"email_err_msg":"Email is required",
+"Invalid_email_err_msg":"Invalid email format",
+"preferUniversities_err_msg":"Preferred universities are required",
+"preferredCountries_err_msg":"Preferred Countries are required",
+
+"Address_err_msg":"Address is required",
+"majors_err_msg":"Preferred majors is required",
+"apply_label": "Apply",
+"reqFields-err-msg-title":"Error!'",
+"reqFields-msg-text":"Please fill in all required fields",
+"confirmButtonText":"OK",
+"Success-err-msg-title":"Success!'",
+"Success-msg-text":"Your application has been successfully submitted. Thank you for applying!",
+
+"server-msg-text":"Please Try again later!",
+
+"video-intro-title":"Watch Video",
+"video-intro-shape":"Intro",
+"startprice-title":" Start price",
+"404-msg":"Oops! That page can't be found",
+"500-msg":"Oops! looks like something went wrong, please try again later",
+
+"backtoHome-btn":"Back to Home"
+
+
+
+
+}

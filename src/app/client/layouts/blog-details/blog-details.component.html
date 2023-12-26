@@ -1,0 +1,99 @@
+<main>
+   <!-- hero-area-start -->
+   <div class="hero-arera course-item-height" data-background="assets/img/banner/blogs.jpg">
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-12">
+               <div class="hero-course-1-text pt-50">
+                  <h2>{{blog.title}}</h2>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- hero-area-end -->
+
+
+   <div class="blog-area pt-120 pb-90">
+      <div class="container">
+         <div class="row">
+
+            <div class="col-xl-8 col-lg-12">
+               <div class="blog-main-wrapper mb-0">
+                  <div class="row">
+                     <div class="col-xl-12 col-lg-12 col-md-12">
+                        <div class="blog-wrapper position-relative blog-details-wrapper mb-30">
+                           <div class="blog-thumb ">
+                              <img class="blog-details-Image " [src]="blog.cover "
+                                 onError="this.src='/assets/img/other/default-image.png'" alt="No Image'">
+                           </div>
+                           <div class="blog-content-wrapper">
+                              <div class="blog-title">
+                                 <h2>{{blog.title}}</h2>
+                              </div>
+                              <div class="blog-meta">
+                                 <div class="blog-date">
+                                    <i class="flaticon-calendar"></i>
+                                    <span>{{blog.updated_at | dateFormat}}</span>
+                                 </div>
+
+                              </div>
+
+                              <div class="blog-content">
+
+                                 <quill-editor [readOnly]="true" theme="snow"
+                                    style=" border:0px; width: 100%;height: 100%;" [modules]="{ toolbar: false }"
+                                    format="html" [readOnly]="true" placeholder="" [(ngModel)]="blog.content">
+
+                                 </quill-editor>
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+
+            </div>
+            <div class="col-xl-4 col-lg-12 col-md-12">
+               <div class="sidebar-widget-wrapper">
+
+                  <div class="sidebar__widget mb-30">
+                     <div class="sidebar__widget-head mb-35">
+                        <h4 class="sidebar__widget-title">Recent posts</h4>
+                     </div>
+                     <div class="sidebar__widget-content">
+
+
+
+                        <div class="rc__post-wrapper" *ngFor="let topBlog of blogs ">
+                           <div class="rc__post d-flex align-items-center my-2">
+                              <div class="rc__thumb mr-5">
+                                 <a><img class="top-post-Image" [src]="topBlog.cover"
+                                       onError="this.src='/assets/img/other/default-image.png'" alt="No Image'">
+                                 </a>
+                              </div>
+                              <div>
+                                 <div class=" my-2">
+                                    <div class="text-right "><button (click)="onClickAnchor(topBlog.id,topBlog.slug)">
+                                          <h5 class=" oneLine "> {{topBlog.title}}</h5>
+                                          <h6>{{topBlog.updated_at | dateFormat}}</h6>
+
+                                       </button></div>
+                                 </div>
+                              </div>
+
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+</main>

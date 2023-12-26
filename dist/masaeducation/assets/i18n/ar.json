@@ -1,0 +1,202 @@
+{
+"nav_home_title":"الصفحة الرئيسية",
+"nav_blogs_title":"المدونة",
+"nav_universities_title":"الجامعات",
+"nav_faqs_title" :"الأسئلة الشائعة",
+"nav_contactUs_title": "اتصل بنا",
+"nav_aboutUs_title" :"من نحن",
+"nav_applyNow_title" :"سجل الآن",
+"slider_first_title":"الصفحة الرئيسية",
+"slider_blogs_title":"المدونة",
+"view_details":"المزيد",
+
+
+"bannner-title": "ابدأ حياتك المهنية",
+"now-label": "انضم الان",
+"discover-main-title": "اكتشف نفسك",
+"discover-title-shape1": "ابحث عن مسار وظيفي مع",
+"discover-subTitle-shape": "MASA",
+"View-universities-btn": "عرض الجامعات",
+"university-card1-title": "الدراسات الجامعية",
+"university-card1-paragraph1": "ابدأ رحلتك ببرنامج دراسات جامعية مناسب.",
+"university-card2-title": "الدراسات العُليا",
+"university-card2-paragraph1": "قدّر مستوى مسيرتك المهنية من خلال فرص دراسات عُليا.",
+
+"testimonial1-area-title": "ماذا يفكرون ويقولون الطلاب حول",
+"testimonial-area-subtitle": "المؤسسة",
+"testimonial2-area-title": "MASA",
+
+
+"University_label":"جامعة",
+
+"fUniversity_Countries_title":"الدول",
+"fUniversity_faculties_title":"الكليات",
+"university_country":"البلد",
+"nav_University_Details":"تفاصيل الجامعة",
+"nav_Blog_Details":"تفاصيل المدونة",
+"No_Blogs_Data_Available_Msg": "لا توجد بيانات مدونات متاحة",
+"No_University_Data_Available_Msg": "لا توجد بيانات جامعات متاحة",
+"country_title": "الدولة",
+"Filter-title":"الفئة",
+"Faculties-title":"الكليات",
+"message-title-shape1": "مرحبًا في",
+"message-subTitle-shape": "MASA",
+"message-title-shape2": "استشاري التعليم",
+"message-profile": "MASA: بوابتك للتعلم مدى الحياة ونجاح مسيرتك المهنية",
+"message-paragraph1": "تتجاوز MASA تقديم المعلومات؛ نحن نقدم توجيهًا شخصيًا، وفرصًا للحصول على منح دراسية، واستشارات مهنية خبيرة لضمان أنك تستفيد إلى أقصى حد من رحلتك التعليمية.",
+"message-paragraph2": "دع MASA يكون استشاري التعليم الموثوق به واستعن به في الانطلاق في مسار اكتشاف إمكانياتك الحقيقية وتحقيق أهدافك المهنية.",
+
+"campus-title-shape1": "التعليم هو",
+"campus-title-shape2": "ممكن للجميع",
+"campus-subTitle-shape": "منصة تجعل",
+"content-title1": "الطلاب يزدهرون مع",
+"content-subtitle": "MASA",
+"content-title2": "استشاري التعليم",
+"content-paragraph": "في استشاري التعليم MASA، نحن ملتزمون بضمان أن الطلاب لا يتلقون فقط تعليمًا استثنائيًا ولكنهم أيضًا يستمتعون برحلتهم الأكاديمية إلى أقصى درجة.",
+"content-option1": "استشارات التعليم",
+"content-option2": "عرض القبول",
+"content-option3": "تحضير التأشيرة",
+"content-option4": "خدمات الإسكان للطلاب",
+"content-option5": "متابعة!",
+
+"blog-area-title1": "اقرأ",
+"blog-area-subtitle": "آخر",
+"blog-area-title2": "مدونات",
+"blog-hint":"ابحث...",
+"university-hint":"ابحث...",
+
+
+
+"view-all-blogs-button": "عرض جميع المدونات",
+"footer-paragraph": "MASA هو استشاري التعليم الموثوق به الذي يهدف إلى مساعدتك في العثور على الطريق الصحيح نحو النجاح الأكاديمي والوظيفي.",
+"partner-area-title1": "شركاؤنا",
+"partner-area-subtitle": "عالميون",
+"partner-area-title2": "شركاء موقرين",
+"partner-paragraph": "في MASA، نحن فخورون بالتعاون مع شركائنا العالميين المحترمين الذين يشاركوننا التفاني في التميز في مجال التعليم. معًا، نمنحك القوة لتشكيل رحلتك التعليمية بالضبط كما تراها.",
+"choose-area-title1": "لماذا",
+"choose-area-subTitle": " تختار ",
+"choose-area-title2": "استشاري التعليم MASA؟",
+"choose-area-paragraph": "اختيار استشاري التعليم هو قرار حيوي على رحلتك نحو النجاح الأكاديمي والوظيفي. استشاري التعليم MASA يتميز كخيار مثالي لعدة أسباب مقنعة:",
+"choose-area-option1": "توجيه شخصي",
+"choose-area-option2": "نطاق عالمي",
+"choose-area-option3": "معلومات شاملة",
+"choose-area-option4": "مجتمع النجاح",
+"choose-area-option5": "الخبرة والدعم",
+
+"features-area-title": "قيمنا الأساسية",
+"OurValues-title": "قيمنا",
+"OurValues-paragraph": "الاحترافية: في الطريقة التي نقدم بها الخدمات، والموقف الذي نتخذه، والعلاقات التي نبنيها. احترام: لأولئك الذين نخدمهم ولأولئك الذين نعمل معهم.",
+"OurVision-title": "رؤيتنا",
+"OurVision-paragraph": "أن نصبح رائدًا في سوق استشارات التعليم العالمية من خلال ربط الطلاب بتعليم عالي الجودة على الصعيدين الدولي وفرص عالمية وفرص وظيفية دولية تضمن مستقبلهم المشرق.",
+ 
+
+"features-video-title1": "احصل على",
+"features-video-subTitle1": "مساعدة",
+"features-video-title2": "من",
+"features-video-title3": "هذا الفيديو",
+
+"counter-Students-Enrolled": "الطلاب الملتحقين",
+"counter-Students-Universities": "الجامعات",
+"counter-Students-Majors": "التخصصات",
+
+"ourLocation-title": "موقعنا",
+"support-section-title": "الاتصال بالدعم",
+"Phone-title": "الهاتف",
+"Mobile-label": "الجوال:",
+"Hotline-label": "الخط الساخن:",
+"location-label": "الموقع",
+"Email-title": "البريد الإلكتروني",
+"email1-value":"info@masaeducation.co",
+"email2-value":"Contact@masaeducation.co",
+"location-value":"Cairo,Egypt,",
+
+
+
+
+
+
+
+"main-faq-title": "كيفية البدء",
+"faqs-questions-title": "الأسئلة الشائعة",
+"faqs-title": "الأسئلة والموضوعات الشائعة",
+"mobile-tab": "الهاتف المحمول والجهاز اللوحي",
+"mobile-paragraph": "التحكم وتصفح الدورات على الهاتف المحمول والجهاز اللوحي",
+"Profile-tab": "الحساب / الملف الشخصي",
+"Profile-paragraph": "إدارة حسابك وملفك الشخصي بسهولة وبسلاسة",
+"Troubleshooting-tab": "حل المشكلات",
+"Troubleshooting-paragraph": "إذا كنت تواجه مشكلة تصفح تقنية",
+"GettingStarted-tab": "البدء",
+"GettingStarted-paragraph": "تعرف على كيفية عمل Eduman وكيفية بدء التعلم.",
+"CourseTracking-tab": "تتبع الدورة",
+"CourseTracking-paragraph": "تتبع دورتك وإدارتها بسهولة في أي مكان",
+"Purchase-tab": "شراء الدورة",
+"Purchase-paragraph": "ستتعرف على سياسة الشراء للدورة",
+"RefundMethod-tab": "سياسة الاسترداد",
+"RefundMetho-paragraph": "إدارة سياسة استرداد الدورة بسهولة وبسلاسة",
+"Admission-tab": "القبول",
+"Admission-paragraph": "اقرأ كيفية الحصول على القبول في دورتك المفضلة",
+"close-btn-title": "إغلاق",
+"faq-answer-title": "دليل إجابات الأسئلة الشائعة",
+
+
+
+
+
+
+
+
+
+"firstName_err_msg": "الاسم الأول مطلوب",
+"middleName_err_msg": "الاسم الأوسط مطلوب",
+"lastName_err_msg": "الاسم الأخير مطلوب",
+"Birthday_err_msg": "تاريخ الميلاد مطلوب",
+"Nationality_err_msg": "الجنسية مطلوبة",
+"preferUniversities_err_msg":"الجامعات المفضلة مطلوبة",
+"preferredCountries_err_msg":"البلدان المفضلة مطلوبة",
+"Phone_err_msg": "رقم الهاتف مطلوب",
+"Invalid_phone_err_msg": "صيغة رقم الهاتف غير صحيحة",
+"email_err_msg": "البريد الإلكتروني مطلوب",
+"Invalid_email_err_msg": "صيغة البريد الإلكتروني غير صحيحة",
+"Address_err_msg": "العنوان مطلوب",
+"majors_err_msg": "التخصصات المفضلة مطلوبة",
+
+
+"main-title-applyForm": "نموذج الطلب",
+"firstName_label": "الاسم الأول:",
+"middleName_label": "الاسم الأوسط:",
+"lastName_label": "الاسم الأخير:",
+"Birthday_label": "تاريخ الميلاد:",
+"Nationality_label": "الجنسية:",
+"Phone_label": "رقم الهاتف:",
+"email_label": "البريد الإلكتروني:",
+"Address_label": "العنوان:",
+"majors_label": "التخصصات المفضلة:",
+"countries_label": "البلدان المفضلة:",
+"universities_label": "الجامعات المفضلة:",
+"documents_label": "المستندات:",
+"browse_files_label": "تصفح الملفات",
+"hint_MultiSelect": "اختر",
+"apply_label": "تقديم الطلب",
+
+"reqFields-err-msg-title": "خطأ!",
+"reqFields-msg-text": "الرجاء ملء جميع الحقول المطلوبة",
+"confirmButtonText": "موافق",
+
+"Success-err-msg-title": "نجاح!",
+"Success-msg-text": "تم تقديم طلبك بنجاح. شكرًا لتقديمك!",
+
+"server-msg-text": "يرجى المحاولة مرة أخرى لاحقًا!",
+
+"video-intro-title": "شاهد الفيديو",
+"video-intro-shape": "مقدمة",
+"startprice-title":"السعر",
+"404-msg":"عفوًا! هذه الصفحة غير موجودة",
+"backtoHome-btn":"العودة إلى الصفحة الرئيسية",
+"500-msg":"عذرًا, يبدو أن هناك خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق"
+
+
+
+
+
+   
+}

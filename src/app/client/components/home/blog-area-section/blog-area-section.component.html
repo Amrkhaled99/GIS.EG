@@ -1,0 +1,76 @@
+<!-- blog-area-start -->
+<div class="academic-courses-area p-relative pt-110 pb-120">
+    <img class="academic-shape-2" src="assets/img/shape/acadenic-shape-2.png" alt="shape">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-4 col-lg-4">
+                <div class="section-title mb-50">
+                    <h2>{{"blog-area-title1"|translate}} <span
+                            class="down-mark-line-2">{{"blog-area-subtitle"|translate}}</span>
+                        {{"blog-area-title2"|translate}}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- home Blogs  -->
+
+            <div class="col-xl-4 col-lg-4 col-md-6 blog-content" *ngFor="let blog of blogs">
+
+                <div class="position-relative mb-30 h-100 card">
+
+
+                    <div class="blog-thumb ">
+                        <a class="image-cover"><img [src]="blog.cover"
+                                onError="this.src='/assets/img/other/default-image.png'" alt="No Image'">
+                        </a>
+                    </div>
+
+                    <div class="blog-content-wrapper">
+                        <div class="blog-meta ">
+                            <div class="blog-date">
+                                <i class="flaticon-calendar"></i>
+                                <span>{{blog.created_at | dateFormat}}</span>
+                            </div>
+                        </div>
+
+
+                        <div class="blog-content ">
+                            <span class="singleLine">
+                                <h4>{{blog.title}}</h4>
+                            </span>
+
+
+                            <div>
+                                <h5 class="textMaxLine mb-3">{{blog.short_description}}</h5>
+
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-3 text-center">
+                                        <div class="academic-bottom-btn ">
+
+                                            <button class="edo-course-sec-btn  footer-div-center2" style="display: inline-block;
+                                            width: auto;"
+                                                (click)="onClickAnchor(blog.id,blog.slug)">{{'view_details'|translate}}</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+<!-- blog-area-end -->
