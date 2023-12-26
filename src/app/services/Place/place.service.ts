@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { Category } from 'src/app/interfaces/category';
 import { City } from 'src/app/interfaces/city';
 import { Place } from 'src/app/interfaces/place';
@@ -147,13 +147,20 @@ export class PlaceService {
 
 
 
-   ApplySearch(Parameter: string):Observable<any> {
-    return this.http.get(`${environment.apiURL}universities?name=${Parameter}`);
+  //  ApplySearch(Parameter: string):Observable<any> {
+  //   return this.http.get(`${environment.apiURL}universities?name=${Parameter}`);
+  // }
+
+  ApplySearch(searchTerm: string): Observable<Place[]> {
+    // Filtering places based on the provided search term
+    const filteredPlaces = this.placesEgypt.filter(place =>
+      place.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    return of(filteredPlaces);
   }
 
-
  
-  
+   
   
     
 

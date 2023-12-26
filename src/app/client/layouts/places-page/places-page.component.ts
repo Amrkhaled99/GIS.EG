@@ -82,9 +82,8 @@ export class PlacesPageComponent implements OnInit {
           this.facultySelectedList=[];
           this.page=1;
           this.itemsPerPage=6;
-          this.allUniversities=this.placeService.placesEgypt.length;
-
-          // console.log("Filer:",v.data)
+          this.allUniversities=this.places.length;
+          this.places=v;
         }
       )
 
