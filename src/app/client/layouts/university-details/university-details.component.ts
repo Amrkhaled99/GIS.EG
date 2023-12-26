@@ -1,9 +1,11 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, Inject, OnInit,AfterViewInit , Renderer2 } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Place } from 'src/app/interfaces/place';
 import { University } from 'src/app/interfaces/university';
 import { DataService } from 'src/app/services/DataService/data.service';
-import { UniversityService } from 'src/app/services/university.service';
+import { PlaceService } from 'src/app/services/Place/place.service';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-university-details',
@@ -12,18 +14,25 @@ import { UniversityService } from 'src/app/services/university.service';
 })
 export class UniversityDetailsComponent  implements OnInit {
   
+    // Example usage
+    lastUpdate:string="";
+    
 
-
- 
-  universityId:any;
-  university :University= {} as University;
-  constructor( private universityService:UniversityService
+  placeId:any;
+  place :Place= {} as Place;
+  constructor( private placeService:PlaceService
     ,private dataService: DataService
     ,private render2:Renderer2,
     private route: ActivatedRoute
-    ,@Inject(DOCUMENT) private _document:Document){
+    ,@Inject(DOCUMENT) private _document:Document
+    ,private sanitizer: DomSanitizer
+    ){
+
+      this.lastUpdate=this.getCurrentFormattedDate();
       
     }
+
+
 
 
 
@@ -31,27 +40,44 @@ export class UniversityDetailsComponent  implements OnInit {
   ngOnInit(): void {
 
     this.route.queryParams.subscribe(params => {
-      this.universityId= params['id']; 
+      this.placeId= params['id']; 
+      console.log(this.placeId);
     });
 
- this.renderJsFile();    this.getUniversity();
+ this.renderJsFile();    this.getPlace();
 
 
 
   }
   
 
+  getMapUrl(): SafeResourceUrl {
+    const mapUrl = `https://maps.google.com/maps?q=${this.place.latitude},${this.place.longitude}&t=&z=15&ie=UTF8&iwloc=&output=embed`;
+    return this.sanitizer.bypassSecurityTrustResourceUrl(mapUrl);
+  }
+
+   getCurrentFormattedDate(): string {
+    const currentDate = new Date();
   
-  async getUniversity() {
-    (await this.universityService.getUniversityByID( this.universityId )).subscribe({
-      next: (res:any) => this.university=res,
-      error: (err:any) =>  {},
-      complete: () => {
-      //  console.log(this.university)
+    let formattedDate = new Intl.DateTimeFormat('en-US', { day: 'numeric', month: 'short', year: 'numeric' }).format(currentDate);
+  
+    return formattedDate;
+  }
+  
 
+  
+  async getPlace() {
+    this.placeService. getPlaceByID(this.placeId )
+    .then(place => {
+      if (place) {
+        this.place=place;
       }
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
 
-    })  
+    
   }
  
   renderJsFile(){

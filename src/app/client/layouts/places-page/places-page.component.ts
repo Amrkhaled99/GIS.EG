@@ -111,6 +111,8 @@ export class PlacesPageComponent implements OnInit {
       return new Promise(resolve => setTimeout(resolve, ms));
     }
     
+
+    
     
     
     navigateToserverError() {

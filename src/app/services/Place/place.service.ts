@@ -13,12 +13,12 @@ export class PlaceService {
 
   placesEgypt:Place[] = [
     {
-        longitude: 31.2357,
-        latitude: 30.0444,
+        longitude:31.3185753719682,
+        latitude:29.99681925,
         code: 1001,
         city: 1010, 
       cityName:"Cairo",
-        name: "General Hospital"
+        name: "General Hospital",
     },
     {
         longitude: 29.9871,
@@ -116,6 +116,7 @@ export class PlaceService {
     { name: "Mosques", code: 5005 },
   ];
   
+
   constructor(private http: HttpClient) {}
 
 
@@ -134,6 +135,7 @@ export class PlaceService {
    }
  
 
+
  
    getAllUniversitiesRequest() {
   
@@ -144,6 +146,16 @@ export class PlaceService {
    async getUniversityByID(id: string) {
     return this.http.get(`${environment.apiURL}universities/${id}`);
   }
+
+  
+  async  getPlaceByID(id: string): Promise<Place | undefined> {
+    const parsedId: number = parseInt(id, 10); // Parse the ID to a number if needed
+    // Find the place with the matching code
+    const place: Place | undefined = this.placesEgypt.find(place => place.code === parsedId);
+
+    return place;
+  }
+  
 
 
 
