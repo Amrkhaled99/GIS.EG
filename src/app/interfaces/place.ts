@@ -5,4 +5,5 @@ export interface Place{
     city:number,
     cityName:string,
     name:string,
+    isMostVisited: boolean;
 }

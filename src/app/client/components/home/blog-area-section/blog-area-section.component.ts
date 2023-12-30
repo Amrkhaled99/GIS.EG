@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { Blog } from 'src/app/interfaces/blog';
+import { Place } from 'src/app/interfaces/place';
+import { PlaceService } from 'src/app/services/Place/place.service';
 import { BlogService } from 'src/app/services/blog/blog.service';
 
 @Component({
@@ -9,30 +11,27 @@ import { BlogService } from 'src/app/services/blog/blog.service';
   styleUrls: ['./blog-area-section.component.css']
 })
 export class BlogAreaSectionComponent {
-  blogs: Blog[] = [];
+  places: Place[] = [];
+  lastUpdate:string="";
 
   constructor(
-    private blogService: BlogService
+    private placeService: PlaceService
     ,private router: Router
-        ){}
+        ){
+
+          this.lastUpdate=this.getCurrentFormattedDate();
+
+        }
 
 
     
     ngOnInit(): void  {   
-      this.getBlogs()
+      this.getPlaces()
     }
     
 
-   getBlogs() {
-    this.blogService.getTopBlogsRequest().subscribe(
-      (res) => {
-        this.blogs = res["data"].slice(0, 3);
-      },
-      (error) => {
- 
-             this.navigateToserverError();
-      }
-    );
+   getPlaces() {
+    this.places=this.placeService.getTopPlacesRequest();
     
   }
  
@@ -45,6 +44,18 @@ export class BlogAreaSectionComponent {
     }
   
   }
+  
+
+  
+  getCurrentFormattedDate(): string {
+    const currentDate = new Date();
+  
+    let formattedDate = new Intl.DateTimeFormat('en-US', { day: 'numeric', month: 'short', year: 'numeric' }).format(currentDate);
+  
+    return formattedDate;
+  }
+  
+
   
   
 

@@ -3,7 +3,7 @@
 
 "nav_home_title":"Home",
 "nav_blogs_title":"Blogs",
-"nav_universities_title":"universities",
+"nav_universities_title":"Services",
 "nav_faqs_title" :" FAQ's",
 "nav_aboutUs_title" :"About Us",
 "nav_contactUs_title" :"Contact Us",
@@ -12,10 +12,10 @@
 
 "slider_first_title":"Home",
 "slider_blogs_title":"Blogs",
-"view_details":"View Details",
+"view_details":"View",
 
 
-"bannner-title":"Explore with GIS",
+"bannner-title":"Explore with GIS.EGY",
 "now-label":"Discover now",
 
 
@@ -46,45 +46,45 @@
 "discover-main-title":"Navigate with GIS",
 "discover-title-shape1":"Our Guide to Exploring City ",
 "discover-subTitle-shape":"Treasures",
-"View-universities-btn":"View universities",
+"View-universities-btn":"View Services",
 "University_label":"University ",
 
-"university-card1-title":"Undergraduate",
-"university-card1-paragraph1":"Start your journey with the right undergraduate program.",
-"university-card2-title":"Postgraduate",
-"university-card2-paragraph1":"Elevate your career with postgraduate opportunities.",
+"university-card1-title":"Interactive Mapping",
+"university-card1-paragraph1":"Uncover Your City's Wonders with Dynamic, Interactive Maps.",
+"university-card2-title":"Data Accuracy and Currency",
+"university-card2-paragraph1":"Reliable GIS Information: Keeping You Informed and Up-to-Date.",
 
 
 
 
-"testimonial1-area-title":"What Students",
+"testimonial1-area-title":"What Users",
 "testimonial-area-subtitle":" Think and Say About",
-"testimonial2-area-title":"MASA",
+"testimonial2-area-title":"GIS.EGY",
 
 
 
 "campus-title-shape1":"Education is the",
 "campus-title-shape2":"possible to everyone",
 "campus-subTitle-shape":"Platform that makes",
-"content-title1":"Students Thrive with ",
-"content-subtitle":"MASA",
-"content-title2":" Education Consultant",
-"content-paragraph":"At MASA Education Consultant, we are dedicated to ensuring that students not only receive exceptional education but also enjoy their academic journey to the fullest. ",
-"content-option1":"Education Consultancy",
-"content-option2":"Offer Letter",
-"content-option3":"Visa preparation",
-"content-option4":"Student housing services",
-"content-option5":"Follow-up!",
+"content-title1":"Embark on a City Exploration ",
+"content-subtitle":"Journey",
+"content-title2":" with GIS.EGY",
+"content-paragraph":"At GIS.EGY, our passion is to make city discovery an exhilarating and seamless experience for you. With cutting-edge GIS technology, we've crafted a platform that not only simplifies exploration but also adds a layer of excitement to your urban adventures.",
+"content-option1":"Discover Your City's Secrets",
+"content-option2":"Real-Time Updates",
+"content-option3":"Personalize Your Journey",
+"content-option4":"Dynamic and Interactive Maps",
+"content-option5":" GIS Information at Your Fingertips",
 
 
-"blog-area-title1":"Read Our",
-"blog-area-subtitle":" Latest",
-"blog-area-title2":" Blogs",
+"blog-area-title1":"Most",
+"blog-area-subtitle":"Visited",
+"blog-area-title2":"Places",
 "view-all-blogs-button":"View all Blogs",
 "blog-hint":"Search...",
 
 
-"footer-paragraph":"MASA is your trusted education consultant, dedicated to helping you  find the right path to academic and career success.",
+"footer-paragraph":"GIS.EGY: Your friendly navigator for city exploration. Unlock the best of your city with simplicity and ease.",
 
 "partner-area-title1":"Our",
 "partner-area-subtitle":"Global",

@@ -21,18 +21,18 @@
                                 <!-- Additional required wrapper -->
                                 <div class="swiper-wrapper">
                                     <!-- Slides -->
-                                    <div class="swiper-slide" *ngFor="let country  of countries">
+                                    <div class="swiper-slide" *ngFor="let city  of cities">
                                         <a>
                                             <div class="categories-wrapper text-center mb-30">
                                                 <div class="categiories-thumb">
-                                                    <img class="flag-Image" [src]="country.flag"
+                                                    <img class="flag-Image" [src]="city.imageUrl"
                                                         onError="this.src='/assets/img/other/default-image.png'"
                                                         alt="No Image'">
                                                 </div>
                                                 <div class="categories-content">
-                                                    <h4 class="oneLine">{{country.name}}</h4>
-                                                    <p>{{country.universities_count}} {{"University_label"|translate}}
-                                                    </p>
+                                                    <h4 class="oneLine">{{city.name}}</h4>
+                                                    <!-- <p>{{country.universities_count}} {{"University_label"|translate}} -->
+                                                    <!-- </p> -->
                                                 </div>
                                             </div>
                                         </a>

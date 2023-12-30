@@ -4,6 +4,7 @@ import { Observable, of } from 'rxjs';
 import { Category } from 'src/app/interfaces/category';
 import { City } from 'src/app/interfaces/city';
 import { Place } from 'src/app/interfaces/place';
+import { Review } from 'src/app/interfaces/review';
 import { environment } from 'src/environments/environments';
 
 @Injectable({
@@ -19,6 +20,7 @@ export class PlaceService {
         city: 1010, 
       cityName:"Cairo",
         name: "General Hospital",
+        isMostVisited:true,
     },
     {
         longitude: 29.9871,
@@ -26,7 +28,8 @@ export class PlaceService {
         code: 2002,
         city: 1010, 
       cityName:"Cairo",
-        name: "Nile Market"
+        name: "Nile Market",
+        isMostVisited:true
     },
     {
         longitude: 30.0478,
@@ -34,7 +37,8 @@ export class PlaceService {
         code: 3003,
         city: 1010, 
       cityName:"Cairo",
-        name: "Pharaoh Bank"
+        name: "Pharaoh Bank",
+        isMostVisited:true
     },
     {
         longitude: 31.2001,
@@ -42,7 +46,8 @@ export class PlaceService {
         code: 4004,
         city: 1010, 
       cityName:"Cairo",
-        name: "Pyramid Textiles"
+        name: "Pyramid Textiles",
+        isMostVisited:false
     },
     {
         longitude: 30.9747,
@@ -50,7 +55,8 @@ export class PlaceService {
         code: 5005,
         city: 1010, 
       cityName:"Cairo",
-        name: "Al-Azhar Mosque"
+        name: "Al-Azhar Mosque",
+        isMostVisited:false
     },
     {
         longitude: 31.2156,
@@ -58,7 +64,8 @@ export class PlaceService {
         code: 1001,
         city: 1010, 
       cityName:"Cairo",
-        name: "Sunrise Hospital"
+        name: "Sunrise Hospital",
+        isMostVisited:false
     },
     {
         longitude: 29.9561,
@@ -66,8 +73,8 @@ export class PlaceService {
         code: 2002,
         city: 102,
       cityName:"Alex",
-  
-        name: "Delta Mart"
+        name: "Delta Mart" ,
+        isMostVisited:false
     },
     {
         longitude: 30.0595,
@@ -75,7 +82,8 @@ export class PlaceService {
         code: 3003,
         city: 1010, 
       cityName:"Cairo",
-        name: "Sphinx Bank"
+        name: "Sphinx Bank",
+        isMostVisited:false
     },
     {
         longitude: 31.1991,
@@ -83,7 +91,8 @@ export class PlaceService {
         code: 4004,
         city: 1010, 
       cityName:"Cairo",
-        name: "Nile Garments"
+        name: "Nile Garments",
+        isMostVisited:false
     },
     {
         longitude: 30.9732,
@@ -91,21 +100,22 @@ export class PlaceService {
         code: 5005,
         city: 1010, 
         cityName:"Cairo",
-        name: "Omar Ibn El-Khattab Mosque"
+        name: "Omar Ibn El-Khattab Mosque",
+        isMostVisited:false,
     }
   ];
   
      egyptCities:City[] = [
-      { name: "Cairo", code: 1010 },
-      { name: "Alexandria", code: 102 },
-      { name: "Luxor", code: 103 },
-      { name: "Aswan", code: 104 },
-      { name: "Giza", code: 105 },
-      { name: "Hurghada", code: 106 },
-      { name: "Sharm El Sheikh", code: 107 },
-      { name: "Port Said", code: 108 },
-      { name: "Suez", code: 109 },
-      { name: "Mansoura", code: 110 } // Just to demonstrate, repeating numbers to keep length
+      { name: "Cairo", code: 1010 ,imageUrl:"assets/img/cities/cairo.png"},
+      { name: "Alexandria", code: 102,imageUrl:"assets/img/cities/alex.png"},
+      { name: "Luxor", code: 103 ,imageUrl:"assets/img/cities/luxor.png"},
+      { name: "Aswan", code: 104,imageUrl:"assets/img/cities/aswan.png"},
+      { name: "Giza", code: 105 ,imageUrl:"assets/img/cities/giza.png"},
+      { name: "Damietta", code: 106 ,imageUrl:"assets/img/cities/damietta.png"},
+      { name: "Sohag", code: 107,imageUrl:"assets/img/cities/suhaj.png"},
+      { name: "Port Said", code: 108 ,imageUrl:"assets/img/cities/port_said.png"},
+      { name: "Suez", code: 109 ,imageUrl:"assets/img/cities/suez.png"},
+      { name: "Mansoura", code: 110 ,imageUrl:"assets/img/cities/daqahliya.png"}, // Just to demonstrate, repeating numbers to keep length
   ];
   
   egyCategories:Category[]=[
@@ -116,6 +126,51 @@ export class PlaceService {
     { name: "Mosques", code: 5005 },
   ];
   
+
+  
+ reviews: Review[] = [
+  {
+    id: 1,
+    created_at: "2022-12-15",
+    updated_at: "2022-12-16",
+    student_name: "Ahmed Kareem",
+    comment_title: "Great Experience!",
+    comment: "The website is fantastic! Easy to navigate and incredibly useful.",
+    stars: 5,
+    avatar: "",
+  },
+  {
+    id: 2,
+    created_at: "2022-11-20",
+    updated_at: "2022-11-25",
+    student_name: "Nour Omar",
+    comment_title: "Impressive Design",
+    comment: "Love the design and the well-curated content. A must-visit!",
+    stars: 5,
+    avatar: "",
+  },
+  {
+    id: 3,
+    created_at: "2022-10-05",
+    updated_at: "2022-10-08",
+    student_name: "Aya Hossam",
+    comment_title: "Efficient and Effective",
+    comment: "Saves time with its clear recommendations. Highly recommended!",
+    stars: 5,
+    avatar: "",
+  },
+  {
+    id: 4,
+    created_at: "2022-09-12",
+    updated_at: "2022-09-15",
+    student_name: "Youssef Mahmoud",
+    comment_title: "Smooth Browsing",
+    comment: "Excellent site for discovering online gems. Seamless experience!",
+    stars: 5,
+    avatar: "",
+  },
+  // Add more comments with varying properties and older dates
+];
 
   constructor(private http: HttpClient) {}
 
@@ -206,6 +261,16 @@ export class PlaceService {
       return []; // Return empty array or handle the error as needed
     }
   }
+
+
+  getTopPlacesRequest(){
+   
+    const topPlaces: Place[] =   this.placesEgypt.filter(place => place.isMostVisited==true);
+   
+     return  topPlaces.slice(0, 3);
+
+     }
+  
   
 }
 

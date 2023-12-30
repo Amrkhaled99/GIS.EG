@@ -33,88 +33,97 @@ export class ExpolorePageComponent implements OnInit {
   cities: City[] = [];
 
   placesEgypt:Place[] = [
-  {
-      longitude: 31.2357,
-      latitude: 30.0444,
-      code: 1001,
-      city: 101, 
-    cityName:"Cairo",
-      name: "General Hospital"
-  },
-  {
-      longitude: 29.9871,
-      latitude: 31.2497,
-      code: 2002,
-      city: 101, 
-    cityName:"Cairo",
-      name: "Nile Market"
-  },
-  {
-      longitude: 30.0478,
-      latitude: 31.2336,
-      code: 3003,
-      city: 101, 
-    cityName:"Cairo",
-      name: "Pharaoh Bank"
-  },
-  {
-      longitude: 31.2001,
-      latitude: 29.8942,
-      code: 4004,
-      city: 101, 
-    cityName:"Cairo",
-      name: "Pyramid Textiles"
-  },
-  {
-      longitude: 30.9747,
-      latitude: 29.3439,
-      code: 5005,
-      city: 101, 
-    cityName:"Cairo",
-      name: "Al-Azhar Mosque"
-  },
-  {
-      longitude: 31.2156,
-      latitude: 30.0333,
-      code: 6006,
-      city: 101, 
-    cityName:"Cairo",
-      name: "Sunrise Hospital"
-  },
-  {
-      longitude: 29.9561,
-      latitude: 31.2216,
-      code: 7007,
-      city: 101, 
-    cityName:"Cairo",
-
-      name: "Delta Mart"
-  },
-  {
-      longitude: 30.0595,
-      latitude: 31.2089,
-      code: 8008,
-      city: 101, 
-    cityName:"Cairo",
-      name: "Sphinx Bank"
-  },
-  {
-      longitude: 31.1991,
-      latitude: 29.8947,
-      code: 9009,
-      city: 101, 
-    cityName:"Cairo",
-      name: "Nile Garments"
-  },
-  {
-      longitude: 30.9732,
-      latitude: 29.3451,
-      code: 1010,
-      city: 101, 
-    cityName:"Cairo",
-      name: "Omar Ibn El-Khattab Mosque"
-  }
-];
+    {
+        longitude:31.3185753719682,
+        latitude:29.99681925,
+        code: 1001,
+        city: 1010, 
+      cityName:"Cairo",
+        name: "General Hospital",
+        isMostVisited:false,
+    },
+    {
+        longitude: 29.9871,
+        latitude: 31.2497,
+        code: 2002,
+        city: 1010, 
+      cityName:"Cairo",
+        name: "Nile Market",
+        isMostVisited:false
+    },
+    {
+        longitude: 30.0478,
+        latitude: 31.2336,
+        code: 3003,
+        city: 1010, 
+      cityName:"Cairo",
+        name: "Pharaoh Bank",
+        isMostVisited:false
+    },
+    {
+        longitude: 31.2001,
+        latitude: 29.8942,
+        code: 4004,
+        city: 1010, 
+      cityName:"Cairo",
+        name: "Pyramid Textiles",
+        isMostVisited:false
+    },
+    {
+        longitude: 30.9747,
+        latitude: 29.3439,
+        code: 5005,
+        city: 1010, 
+      cityName:"Cairo",
+        name: "Al-Azhar Mosque",
+        isMostVisited:false
+    },
+    {
+        longitude: 31.2156,
+        latitude: 30.0333,
+        code: 1001,
+        city: 1010, 
+      cityName:"Cairo",
+        name: "Sunrise Hospital",
+        isMostVisited:false
+    },
+    {
+        longitude: 29.9561,
+        latitude: 31.2216,
+        code: 2002,
+        city: 102,
+      cityName:"Alex",
+        name: "Delta Mart" ,
+        isMostVisited:false
+    },
+    {
+        longitude: 30.0595,
+        latitude: 31.2089,
+        code: 3003,
+        city: 1010, 
+      cityName:"Cairo",
+        name: "Sphinx Bank",
+        isMostVisited:false
+    },
+    {
+        longitude: 31.1991,
+        latitude: 29.8947,
+        code: 4004,
+        city: 1010, 
+      cityName:"Cairo",
+        name: "Nile Garments",
+        isMostVisited:false
+    },
+    {
+        longitude: 30.9732,
+        latitude: 29.3451,
+        code: 5005,
+        city: 1010, 
+        cityName:"Cairo",
+        name: "Omar Ibn El-Khattab Mosque",
+        isMostVisited:false,
+    }
+  ];
 
   searchTerm: any ;
   selectedCountry="";

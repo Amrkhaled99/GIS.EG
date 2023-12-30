@@ -3,6 +3,7 @@ import { Component, Inject, Input, Renderer2 } from '@angular/core';
 import { Router } from '@angular/router';
 import { Review } from 'src/app/interfaces/review';
 import { Slider } from 'src/app/interfaces/slider';
+import { PlaceService } from 'src/app/services/Place/place.service';
 import { ReviewService } from 'src/app/services/Review/review.service';
 
 @Component({
@@ -16,7 +17,7 @@ export class ReviewCardComponent {
   // checkReviews:boolean=false;
   
   constructor( 
-    private reviewService:ReviewService,
+    private placeService:PlaceService,
     private router: Router,
     private render2:Renderer2,
     @Inject(DOCUMENT) private _document:Document){
@@ -31,20 +32,9 @@ export class ReviewCardComponent {
 
   
   async getReviews() {
-    this.reviewService.getReviewsRequest().subscribe(
-      (res) => {
-        this.reviews = res;
-      
-
-      },
-      (error) => {
-             this.navigateToserverError();
-
-      }
-
-      
-    );
+  
     
+    this.reviews= this.placeService.reviews;
   }
 
   

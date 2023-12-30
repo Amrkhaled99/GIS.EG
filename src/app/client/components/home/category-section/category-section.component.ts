@@ -5,6 +5,9 @@ import { CountryService } from 'src/app/services/country/country.service';
 import { UniversityService } from 'src/app/services/university.service';
 import { University } from 'src/app/interfaces/university';
 import { Router } from '@angular/router';
+import { PlaceService } from 'src/app/services/Place/place.service';
+import { Place } from '../../../../interfaces/place';
+import { City } from 'src/app/interfaces/city';
 
 @Component({
   selector: 'app-category-section',
@@ -12,10 +15,10 @@ import { Router } from '@angular/router';
   styleUrls: ['./category-section.component.css']
 })
 export class CategorySectionComponent implements OnInit {
-  countries: Country[] = [];
+  cities: City[] = [];
 
   constructor(private countryService: CountryService,
-    private universityService: UniversityService, 
+    private placeService: PlaceService, 
     private router: Router,
     private elementRef: ElementRef) {
 
@@ -24,22 +27,15 @@ export class CategorySectionComponent implements OnInit {
 
   ngOnInit(): void {
     
-    this.getCountries();
+    this.getCities();
   }
 
 
       
 
-  async getCountries() {
+  async getCities() {
 
-    (await this.universityService.getUniversitiesCountriesRequest()).subscribe({
-      next: (res:any) => {this.countries=res["data"]},
-      error: (err:any) =>  {
-             this.navigateToserverError();
-      },
-      complete: () => {}
-  
-    })  
+    this.cities=this.placeService.egyptCities;
   }
 
   navigateToserverError() {
