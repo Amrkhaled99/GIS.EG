@@ -36,7 +36,7 @@ export class UniversityCardComponent {
 onClickAnchor(id: any,slug:any) {
 
   
-  const url = `/universities/${slug}?id=${id}`;
+  const url = `/services/${slug}?id=${id}`;
   const newTab = window.open(url, '_blank');
   if (newTab !== null) {
     newTab.focus();

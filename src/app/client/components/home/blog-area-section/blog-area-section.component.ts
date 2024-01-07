@@ -37,7 +37,7 @@ export class BlogAreaSectionComponent {
  
   onClickAnchor(id: any,slug:any) {
 
-    const url = `/blogs/${slug}?id=${id}`;
+    const url = `/services/${slug}?id=${id}`;
     const newTab = window.open(url, '_blank');
     if (newTab !== null) {
       newTab.focus();

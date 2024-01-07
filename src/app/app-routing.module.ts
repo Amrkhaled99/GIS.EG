@@ -21,10 +21,10 @@ const routes: Routes = [
   { path: 'about', component: AboutPageComponent },
   { path: 'faqs', component: FaqsPageComponent },
   { path: 'blogs', component: BlogsPageComponent },
-  { path: 'universities', component: PlacesPageComponent },
+  { path: 'services', component: PlacesPageComponent },
   { path: 'applynow', component: ApplyPageComponent },
   { path: 'contactus', component: ContactUsComponent },
-  { path: 'universities/:name', component: UniversityDetailsComponent },
+  { path: 'services/:name', component: UniversityDetailsComponent },
   { path: 'blogs/:slug', component: BlogDetailsComponent },
   { path: 'serverError', component: ServerErrorComponent },
 
