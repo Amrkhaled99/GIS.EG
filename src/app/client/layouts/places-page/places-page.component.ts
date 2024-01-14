@@ -17,12 +17,12 @@ import { UniversityService } from 'src/app/services/university.service';
   styleUrls: ['./places-page.component.css']
 })
 export class PlacesPageComponent implements OnInit {
-  
+
   public searchResults: Array<any> = [];
 
   form: FormGroup | undefined;
-  allUniversities: number =0;  
-  page :number|any =1;  
+  allUniversities: number =0;
+  page :number|any =1;
   itemsPerPage:number|any ;
   dataAvailable:boolean|any ;
 
@@ -41,7 +41,7 @@ export class PlacesPageComponent implements OnInit {
     FacultyFormName:new FormControl('')
    })
 
-   
+
   searchTerm: any ;
   selectedCountry="";
   isChecked=false;
@@ -49,8 +49,8 @@ export class PlacesPageComponent implements OnInit {
 
   selectedCityIds: number[] = [];
   selectedCategoryIds: number[] = [];
-  countrySelectedList: string[] = []; 
-  facultySelectedList: string[] = []; 
+  countrySelectedList: string[] = [];
+  facultySelectedList: string[] = [];
 
 
   selectedCountries$ = new BehaviorSubject<number[]>([]);
@@ -62,65 +62,65 @@ export class PlacesPageComponent implements OnInit {
   categories:Category[]=[];
   cities: City[] = [];
 
-  
-  constructor( 
+
+  constructor(
     private router: Router,
     private placeService: PlaceService,
     private render2:Renderer2,
     @Inject(DOCUMENT) private _document:Document){
-     
+
       this.searchForm.get('search')?.valueChanges.
       pipe(
         debounceTime(400),
         distinctUntilChanged(),
         switchMap((v) => this.placeService.ApplySearch(v))
-        
+
       ).subscribe(
         (v)=>{
 
           this.countrySelectedList=[];
           this.facultySelectedList=[];
           this.page=1;
-          this.itemsPerPage=6;
+          this.itemsPerPage=30;
           this.allUniversities=this.places.length;
           this.places=v;
         }
       )
 
-      
+
     }
 
     ngOnInit(): void {
-         
+
       this.renderJsFile();
-       
-       
+
+
        this.getPlaces();
        this.getCities();
        this.getCountries();
-       
+
        if(this. places.length!=0 ){
          this.dataAvailable=false;
        }
-       
-     
-     
+
+
+
       }
 
     delay(ms: number) {
       return new Promise(resolve => setTimeout(resolve, ms));
     }
-    
 
-    
-    
-    
+
+
+
+
     navigateToserverError() {
      //this.router.navigate(['/serverError']);
     }
 
-    
-    
+
+
 
 renderPage(event:number){
   this.page=event;
@@ -169,7 +169,7 @@ onChangeFaculty(e: any) {
 
 
 async filterCities() {
-  
+
   this.placeService.applyCitiesFilter({ codes: this.selectedCityIds.join(',') })
   .then(res => {
 
@@ -178,7 +178,7 @@ async filterCities() {
       this.page=1;
       this.itemsPerPage=6;
       this.places=res;
-        
+
     } else {
     this.getPlaces()
     }
@@ -188,7 +188,7 @@ async filterCities() {
     console.error(error);
   });
 
-  
+
 }
 
 
@@ -219,26 +219,26 @@ async filterCategories() {
     s.src="/assets/js/main.js";
     this.render2.appendChild(this._document.body,s);
   }
-  
-  
+
+
   backToHome() {
-  
+
     const url = `/`;
     window.open(url, '_self');
   }
-  
+
 
   getPlaces() {
    this.places= this.placeService.getPlacesRequest();
   }
-   
+
   getCities() {
    this.cities= this.placeService.getCitiesRequest();
   }
-  
+
    getCountries() {
     this.categories=this.placeService.getCategoriesRequest();
-     
+
   }
-  
+
 }
