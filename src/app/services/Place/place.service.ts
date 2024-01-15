@@ -6004,7 +6004,1422 @@ export class PlaceService {
       cityName: "Cairo",
       name: "Gamal Ahabd Al Naser Metro Station G3L",
      isMostVisited: false
+     },
+
+
+     {
+      longitude: 31.2440859,
+      latitude: 30.0436057,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Mobile Shop",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2415366,
+      latitude: 30.0503919,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Radio Shack Mobile Shop",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2432681,
+      latitude: 30.0454328,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "الأفوكاتو موبايل",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2347129,
+      latitude: 30.0467142,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "موبى منجز",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2420346,
+      latitude: 30.0464601,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "الأفوكاتو شارع شريف",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2424029,
+      latitude: 30.0511026,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "ElAvocato Mobile",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2440468,
+      latitude: 30.0417316,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "الو البركة فون لجميع خدمات المحمول",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2425601,
+      latitude: 30.0453424,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "شركة عالم المحمول",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2423813,
+      latitude: 30.047648,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "المهدي ستور - ElMahdy Store",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2456336,
+      latitude: 30.0609192,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Nasser sons mobile shop",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2496097,
+      latitude: 30.0489861,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "الباشا للالكترونيات",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2357116,
+      latitude: 30.0444196,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "ميني شارع عبد العزيز",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.248922,
+      latitude: 30.0476722,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "حنفي ستورز",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2417575,
+      latitude: 30.0450183,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "التميمى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2426414,
+      latitude: 30.0521385,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Sherif Center",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2423804,
+      latitude: 30.0455233,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "فرست",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2443562,
+      latitude: 30.0505884,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Halawa",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2436369,
+      latitude: 30.0526774,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Free girl",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2385046,
+      latitude: 30.0456583,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "توبى كمبيوتر",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2424767,
+      latitude: 30.0471625,
+      code: 1007,
+      city: 1010,
+      cityName: "Cairo",
+      name: "First ElSahhar Mobile Shop",
+      isMostVisited: false
+     },
+
+
+     {
+      longitude: 31.2426729,
+      latitude: 30.0470042,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Shoebox",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2400522,
+      latitude: 30.0500893,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Hr Shoes",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2407222,
+      latitude: 30.0507188,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "B.M SHOES&BAGS",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2434023,
+      latitude: 30.0523838,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "احذية اشرف",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2421937,
+      latitude: 30.0525181,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "المهر للأحذية- كلاس1",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2409698,
+      latitude: 30.0510505,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "الحذاء الذهبى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2413026,
+      latitude: 30.0520423,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "소피코 علاء الدين",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2429959,
+      latitude: 30.0491015,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "casual",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2424939,
+      latitude: 30.0492865,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مجرى النيل",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2422316,
+      latitude: 30.0489632,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Dejavu",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2466125,
+      latitude: 30.0527528,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "احذية مهران",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2452253,
+      latitude: 30.0527126,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "B.M SHOES&BAGS",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2391195,
+      latitude: 30.0512369,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "برونتو شوز",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2410387,
+      latitude: 30.0516405,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "المهر",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2400568,
+      latitude: 30.0500972,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Gox man",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2368828,
+      latitude: 30.0550062,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مصنع أحذية أولاد منصور",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2418173,
+      latitude: 30.0529063,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "الرملى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2437057,
+      latitude: 30.0508213,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مصنع و معرض أحذية بابل",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2400796,
+      latitude: 30.0497389,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Fi-Fa",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2451553,
+      latitude: 30.0513754,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "محل شقاوة",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2394891,
+      latitude: 30.0487879,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "زلط",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.251531,
+      latitude: 30.0520324,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "شوز",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2450907,
+      latitude: 30.0496792,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Ma لتجارة الأحذية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2410042,
+      latitude: 30.0490098,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Azab",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2387885,
+      latitude: 30.0483691,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "عبده صالح",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2465307,
+      latitude: 30.0522597,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "محلات اولاد فتحي للاحذية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2396961,
+      latitude: 30.0491824,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "أبو حلقة",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2420771,
+      latitude: 30.0447243,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "فالكون",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2418455,
+      latitude: 30.042247,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Eye club",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.242829,
+      latitude: 30.0489285,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "ساكسون",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.242803,
+      latitude: 30.0489192,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "روزينا",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2428179,
+      latitude: 30.0489246,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "توب",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2427175,
+      latitude: 30.0492684,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "كانديس",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2400849,
+      latitude: 30.048302,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Enigma",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2395992,
+      latitude: 30.0484803,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "روبى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2397102,
+      latitude: 30.0478279,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "محل عرابي للاحذية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2416353,
+      latitude: 30.0488901,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "بى إم",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2392519,
+      latitude: 30.048047,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "بوتيك ٢٢",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2397976,
+      latitude: 30.0485346,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "لطفى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.242615,
+      latitude: 30.049112,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "كابريس",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2418194,
+      latitude: 30.0501453,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "كلاركس",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2397775,
+      latitude: 30.0503165,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "نبيل الشيخ",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2413849,
+      latitude: 30.0486736,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Hook",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.23997,
+      latitude: 30.0501876,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "السمالوطى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2422344,
+      latitude: 30.052392,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "ناجح جيد",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2419384,
+      latitude: 30.0524211,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "ليون جانى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2407977,
+      latitude: 30.0512012,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "المرشدى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2439762,
+      latitude: 30.0445738,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "هناء للاحذية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2419947,
+      latitude: 30.046595,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "ديادورا",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2391252,
+      latitude: 30.0482462,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "عرابى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2413089,
+      latitude: 30.0514869,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Pronto Shoes Talaat Harb 2",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2397885,
+      latitude: 30.0491245,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "ريتش",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2396841,
+      latitude: 30.0490933,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Dido",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2404273,
+      latitude: 30.0502677,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "برونتو",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.240064,
+      latitude: 30.050093,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "بيبو",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.24008,
+      latitude: 30.0497847,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Ahmed mahmoud أحمد محمود للأحذيه",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2393923,
+      latitude: 30.0501733,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "الجباس",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2392519,
+      latitude: 30.048047,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "بوتيك ٢٢",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2390088,
+      latitude: 30.0486281,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Volley البنا",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2404702,
+      latitude: 30.0470351,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "روسيا للاحذيه الرياضيه",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2395003,
+      latitude: 30.048781,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Duetto",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2400741,
+      latitude: 30.0501264,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "السمالوطى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.240032,
+      latitude: 30.0501305,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Rocket",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2433538,
+      latitude: 30.04951,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "السروجي للأحذية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2408521,
+      latitude: 30.0497979,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "سيف ستور",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2425607,
+      latitude: 30.0466574,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "الجباس",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2410599,
+      latitude: 30.0515747,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Golden shoes",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2413175,
+      latitude: 30.0520482,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "B.m",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2397655,
+      latitude: 30.0492157,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Radio",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2408094,
+      latitude: 30.0507101,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Milano Shoes أحذية ميلانو",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2398658,
+      latitude: 30.0497126,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "يحيى ميجا ستور للاحذيه",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2434381,
+      latitude: 30.0494247,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "الأمراء",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2412866,
+      latitude: 30.0502133,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Kenzo",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.242502,
+      latitude: 30.0487694,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "تيفولى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.243022,
+      latitude: 30.050266,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "أحذية كوكو الخواجة",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.243873,
+      latitude: 30.0524551,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مرعى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.24418,
+      latitude: 30.0523491,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Taher",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2439762,
+      latitude: 30.0445738,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "ميبل",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.244522,
+      latitude: 30.052412,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "الفطايرى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2449146,
+      latitude: 30.0514181,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "احذية المصرية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.243063,
+      latitude: 30.0527404,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "هدهد للاحذية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2467478,
+      latitude: 30.0531098,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "احذية على الدين",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2419384,
+      latitude: 30.0524211,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "ليون جانى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2353614,
+      latitude: 30.0391126,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "متجر احذيه",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2464388,
+      latitude: 30.0527606,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مصطفى محمد",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.2394838,
+      latitude: 30.0495338,
+      code: 1008,
+      city: 1010,
+      cityName: "Cairo",
+      name: "روللى",
+      isMostVisited: false
+     },
+
+     {
+      longitude: 31.243768700000032,
+      latitude: 30.05362640000004,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "آخر ساعة",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.238186400000075,
+      latitude: 30.046594800000037,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Felfela",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.243330400000048,
+      latitude: 30.053191300000037,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم النجاح للمأكولات الشرقية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.239293100000054,
+      latitude: 30.047208500000067,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "القزاز",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.240048900000033,
+      latitude: 30.04417090000004,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم السوق",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.235420700000077,
+      latitude: 30.046011700000065,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم علي بابا",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.228627300000028,
+      latitude: 30.045632400000045,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم دار القمر (مطعم لبناني)",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.24371590000004,
+      latitude: 30.041036000000076,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم بجه",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.244126900000026,
+      latitude: 30.046136400000023,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "محمد فريد",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.23957180000008,
+      latitude: 30.043084300000032,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم الشروق",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.240048900000033,
+      latitude: 30.04417090000004,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم السوق",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.23571160000006,
+      latitude: 30.044419600000026,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطبخ الشيف ام ملك آكل بيتي جاهز",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.243932700000073,
+      latitude: 30.04367170000006,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم التوكل",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.23995180000003,
+      latitude: 30.045745600000032,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم الجمهورية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.23985780000004,
+      latitude: 30.042648300000053,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم برعى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.242762800000037,
+      latitude: 30.051341000000036,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "LA Chesa Restaurant",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.241430000000037,
+      latitude: 30.04322030000003,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "سندوتشات ابو مالك",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.245364300000062,
+      latitude: 30.04077410000008,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Amm Mohammed foool cart",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.23574640000004,
+      latitude: 30.049743600000056,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "سندوتشات الفتح",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.24224890000005,
+      latitude: 30.049835900000062,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم وسط البلد",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.238186400000075,
+      latitude: 30.046594800000037,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Felfela",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.239293100000054,
+      latitude: 30.047208500000067,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "القزاز",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.235420700000077,
+      latitude: 30.046011700000065,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم علي بابا",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.244126900000026,
+      latitude: 30.046136400000023,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "محمد فريد",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.23822800000005,
+      latitude: 30.044599000000062,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم كشري التحرير",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.23849910000007,
+      latitude: 30.04647310000007,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم الكحلاوي",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.240508600000055,
+      latitude: 30.047136300000034,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم نورين",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.241460800000027,
+      latitude: 30.050395500000036,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم جاد",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.239698800000042,
+      latitude: 30.044708900000046,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم طاهر",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.24031800000006,
+      latitude: 30.050977000000046,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "آخر ساعة",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.243768700000032,
+      latitude: 30.05362640000004,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "آخر ساعة",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.243330400000048,
+      latitude: 30.053191300000037,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم النجاح للمأكولات الشرقية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.24268870000003,
+      latitude: 30.05505540000007,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم بوابة الشام",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.253784300000063,
+      latitude: 30.05603700000006,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم الشامي للاسماك",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.244948700000066,
+      latitude: 30.054734000000053,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم فول و طعمية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.24342770000004,
+      latitude: 30.05348200000003,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم وكبابجي الفي بك",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.252366400000028,
+      latitude: 30.055440200000078,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم الارزاق بالله",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.252495300000078,
+      latitude: 30.062200000000075,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم النجاح",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.246968500000037,
+      latitude: 30.05980930000004,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم الحاتى",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.23272090000006,
+      latitude: 30.056187400000056,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم وكبابجى الأمانة",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.23498120000005,
+      latitude: 30.064859900000044,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "El Zein Restaurant مطعم الزين",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.23272090000006,
+      latitude: 30.056187400000056,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم وكبابجى الأمانة",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.243330400000048,
+      latitude: 30.053191300000037,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم النجاح للمأكولات الشرقية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.227291200000025,
+      latitude: 30.064678900000047,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم ذا لاونج",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.223394600000063,
+      latitude: 30.059672800000044,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "O's Pasta",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.232688300000063,
+      latitude: 30.055937800000038,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم الشرقية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.221178000000066,
+      latitude: 30.060609800000066,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "ظاظا كوزين مطعم",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.222556600000075,
+      latitude: 30.061467700000037,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Tayer Ya Fatayer Zamalek طاير يا فطاير الزمالك",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.219312500000058,
+      latitude: 30.061083300000064,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطعم زووبا للمأكولات المصرية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.229866000000072,
+      latitude: 30.056955500000072,
+      code: 1009,
+      city: 1010,
+      cityName: "Cairo",
+      name: "الدريني",
+      isMostVisited: false
      }
+
+
+
+
+
+
 
 
 
@@ -6031,6 +7446,9 @@ export class PlaceService {
     { name: "Hotels", code: 1004 },
     { name: "Markets", code: 1005 },
     { name: "Metro stations", code: 1006 },
+    { name: "Mobile stores", code: 1007 },
+    { name: "Shoe stores", code: 1008 },
+    { name: "Restaurants", code: 1009 },
 
 
   ];
