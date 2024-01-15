@@ -16,14 +16,14 @@ export class HeaderComponent implements OnInit {
 
 
   ngOnInit(): void {
-    
+
      this.renderJsFile()
 
   }
    constructor(private cookies:CookieService,public translate: TranslateService
     , @Inject(DOCUMENT) private document: Document
     ,private render2:Renderer2,
-    @Inject(DOCUMENT) private _document:Document) { 
+    @Inject(DOCUMENT) private _document:Document) {
     this.cLanguage=this.getCookies()
     translate.addLangs(this.supportLanguages);
     if(this.cLanguage==0){
@@ -37,11 +37,11 @@ export class HeaderComponent implements OnInit {
     // console.log(this.cLanguage)
 
 
-   
+
 
   }
 
-  
+
 
   checkCurrentLanguage(){
      if(this.cLanguage=="ar"){
@@ -53,14 +53,14 @@ export class HeaderComponent implements OnInit {
       this.setDirection(this.cLanguage);
      }
   }
-  
+
   getCookies(){
    return this.cookies.get("cLanguage");
   }
 
 
   switchLang(lang:string){
-  
+
     this.cookies.set("cLanguage",lang);
     this.translate.use(lang);
     this.setDirection(lang);
@@ -78,7 +78,7 @@ export class HeaderComponent implements OnInit {
     htmlTag.dir = lang === "ar" ? "rtl" : "ltr";
     htmlTag.lang = lang;
   }
-  
+
 
   onClickAnchor() {
 
@@ -87,26 +87,26 @@ export class HeaderComponent implements OnInit {
     if (newTab !== null) {
       newTab.focus();
     }
-  
+
   }
-  
+
 
   renderJsFile(){
-    
+
     const s=this.render2.createElement('script');
     s.type='text/javascript';
     s.src="/assets/main2.js";
 
     this.render2.appendChild(this._document.body,s);
-    
+
   }
-  
+
 
 
 
   // renderHeader() {
 
-    
+
   //   const windowOn = $(window);
 
   //   ////////////////////////////////////////////////////
@@ -117,7 +117,7 @@ export class HeaderComponent implements OnInit {
 
   //   ////////////////////////////////////////////////////
   //   // 02. Mobile Menu Js
-   
+
 
   //   // 03. Sidebar Js
   //   $(".side-info-close, .offcanvas-overlay").on("click", () => {
