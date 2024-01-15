@@ -170,7 +170,7 @@ onChangeFaculty(e: any) {
 
 async filterCities() {
 
-  this.placeService.applyCitiesFilter({ codes: this.selectedCityIds.join(',') })
+  this.placeService.applyCitiesServiceFilter({ codes: this.selectedCityIds.join(',') })
   .then(res => {
 
 
@@ -194,7 +194,7 @@ async filterCities() {
 
 async filterCategories() {
 
-  this.placeService.applyCategoryFilter({ codes: this.selectedCategoryIds.join(',') })
+  this.placeService.applyCategoryServiceFilter({ codes: this.selectedCategoryIds.join(',') })
   .then(places => {
 
     if (this.selectedCategoryIds.length !== 0) {
@@ -237,7 +237,7 @@ async filterCategories() {
   }
 
    getCountries() {
-    this.categories=this.placeService.getCategoriesRequest();
+    this.categories=this.placeService.getCategoriesServiceRequest();
 
   }
 

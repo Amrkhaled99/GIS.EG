@@ -5405,72 +5405,6 @@ export class PlaceService {
 
 
 
-
-
-    {
-        longitude: 30.9747,
-        latitude: 29.3439,
-        code: 5005,
-        city: 1010,
-      cityName:"Cairo",
-        name: "Al-Azhar Mosque",
-    isMostVisited:false
-    },
-    {
-        longitude: 31.2156,
-        latitude: 30.0333,
-        code: 1001,
-        city: 1010,
-      cityName:"Cairo",
-        name: "Sunrise Hospital",
-    isMostVisited:false
-    },
-    {
-        longitude: 29.9561,
-        latitude: 31.2216,
-        code: 2002,
-        city: 102,
-      cityName:"Alex",
-        name: "Delta Mart" ,
-    isMostVisited:false
-    },
-    {
-        longitude: 30.0595,
-        latitude: 31.2089,
-        code: 3003,
-        city: 1010,
-      cityName:"Cairo",
-        name: "Sphinx Bank",
-    isMostVisited:false
-    },
-    {
-        longitude: 31.1991,
-        latitude: 29.8947,
-        code: 4004,
-        city: 1010,
-      cityName:"Cairo",
-        name: "Nile Garments",
-    isMostVisited:false
-    },
-    {
-        longitude: 30.9732,
-        latitude: 29.3451,
-        code: 5005,
-        city: 1010,
-        cityName:"Cairo",
-        name: "Omar Ibn El-Khattab Mosque",
-    isMostVisited:true,
-    },
-
-    {
-      longitude: 31.2417626,
-     latitude: 30.0529701,
-      code: 1004,
-      city: 1010,
-      cityName: "Cairo",
-     name: "Safary Hotel",
-      isMostVisited: false
-     },
      {
       longitude: 31.234779,
      latitude: 30.047618,
@@ -7931,11 +7865,18 @@ export class PlaceService {
   getPlaceServiceRequest()  {
     return this.placesEgypt;
    }
-  getCategoriesRequest(){
+  getCategoriesServiceRequest(){
 
-    return this.egysafetyCategories;
+    return this.egyCategories;
 
     }
+
+
+    getCategoriesRequest(){
+
+      return this.egysafetyCategories;
+
+      }
 
     getCitiesRequest() {
      return this.egyptCities;
@@ -7999,7 +7940,8 @@ export class PlaceService {
   }
 
 
-  async applyCitiesFilter(parameter: { codes: string }): Promise<Place[]> {
+
+  async applyCitiesServiceFilter(parameter: { codes: string }): Promise<Place[]> {
     try {
       const citiesCodes: number[] = parameter.codes.split(',').map(code => parseInt(code.trim(), 10));
       const filteredPlacesCities: Place[] = this.placesEgypt.filter(place => citiesCodes.includes(place.city));
@@ -8010,11 +7952,34 @@ export class PlaceService {
     }
   }
 
+  async applyCitiesFilter(parameter: { codes: string }): Promise<Place[]> {
+    try {
+      const citiesCodes: number[] = parameter.codes.split(',').map(code => parseInt(code.trim(), 10));
+      const filteredPlacesCities: Place[] = this.safetyPlaces.filter(place => citiesCodes.includes(place.city));
+      return filteredPlacesCities;
+    } catch (error) {
+      console.error("Error applying city filter:", error);
+      return [];
+    }
+  }
+
+
+  async applyCategoryServiceFilter(parameter: { codes: string }): Promise<Place[]> {
+    try {
+      const codesArray: number[] = parameter.codes.split(',').map(code => parseInt(code.trim(), 10));
+      const filteredPlacesCategories: Place[] = this.placesEgypt.filter(place => codesArray.includes(place.code));
+      return filteredPlacesCategories;
+    } catch (error) {
+      console.error("Error applying category filter:", error);
+      return []; // Return empty array or handle the error as needed
+    }
+  }
+
 
   async applyCategoryFilter(parameter: { codes: string }): Promise<Place[]> {
     try {
       const codesArray: number[] = parameter.codes.split(',').map(code => parseInt(code.trim(), 10));
-      const filteredPlacesCategories: Place[] = this.placesEgypt.filter(place => codesArray.includes(place.code));
+      const filteredPlacesCategories: Place[] = this.safetyPlaces.filter(place => codesArray.includes(place.code));
       return filteredPlacesCategories;
     } catch (error) {
       console.error("Error applying category filter:", error);
