@@ -1,0 +1,107 @@
+<main>
+  <!-- hero-area-start -->
+  <div class="hero-arera course-item-height" data-background="assets/img/banner/australian-national-university.jpg">
+
+  </div>
+  <!-- hero-area-end -->
+  <!-- course-details-area-start -->
+  <section class="course-detalis-area pb-90">
+    <div class="container">
+      <div class="row">
+        <div class=" col-xxl-8 col-xl-8">
+          <div class="course-detalis-wrapper mb-30">
+            <div class="course-heading mb-20">
+              <h2>{{place.name}}</h2>
+
+            </div>
+            <div class="course-detelis-meta">
+
+              <div class="course-meta-wrapper ">
+                <div class="course-meta-img-country">
+                  <a><img [src]="'/assets/img/other/cairo-flag.png'" class="univer-country-img"
+                      onError="this.src='/assets/img/other/default-image.png'" alt="course-meta"></a>
+                </div>
+
+
+                <div class="course-meta-text">
+                  <span>City</span>
+                  <h6><a>{{place.cityName}}</a></h6>
+                </div>
+              </div>
+
+              <div class="course-update ">
+                <p>Last Update</p>
+                <span class="ms-2">{{lastUpdate | dateFormat}}</span>
+              </div>
+
+            </div>
+
+
+
+
+            <div class="course-description pt-45 pb-30">
+
+              <div class="col-lg-12 border-0">
+
+                <iframe [src]="getMapUrl()" width="100%" height="600"></iframe>
+
+              </div>
+
+
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-xl-4 col-lg-12 col-md-12">
+          <div class="course-video-widget">
+            <div class="course-widget-wrapper mb-30">
+              <div class="academic-thumb mb-20">
+                <img [src]="'/assets/img/other/default-image.png'" alt="No Image'" class="univer-cover-img ">
+
+
+              </div>
+
+              <div class="course-video-body">
+                <div class="course-vide-icon">
+                  <i class="flaticon-menu-2"></i>
+                  <span>&ensp;{{"fUniversity_faculties_title"|translate}} </span>
+                </div>
+                <hr>
+                <ul class="">
+
+                  <div class="singleLine oneLine" style="display: flex; justify-content: flex-start;">
+                    <div style="margin-right: 20px;">
+                      <h5>Longitude:</h5>
+                    </div>
+                    <div>
+                      {{ place.longitude | dataRound }}
+                    </div>
+                  </div>
+                  <hr>
+
+                  <div class="singleLine oneLine" style="display: flex; justify-content: flex-start;">
+                    <div style="margin-right: 20px;">
+                      <h5>Latitude:</h5>
+                    </div>
+                    <div>
+                      {{ place.latitude | dataRound }}
+                    </div>
+                  </div>
+                  <hr>
+
+
+
+
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>

@@ -7426,6 +7426,8 @@ export class PlaceService {
 
   ];
 
+
+
      egyptCities:City[] = [
       { name: "Cairo", code: 1010 ,imageUrl:"assets/img/cities/cairo.png"},
       { name: "Alexandria", code: 102,imageUrl:"assets/img/cities/alex.png"},
@@ -7449,6 +7451,425 @@ export class PlaceService {
     { name: "Mobile stores", code: 1007 },
     { name: "Shoe stores", code: 1008 },
     { name: "Restaurants", code: 1009 },
+
+
+  ];
+
+
+
+  safetyPlaces:Place[] = [
+    {
+      longitude: 31.224725300000046,
+      latitude: 30.028102500000045,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Fire brigade نقطة إطفاء النيل",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.262753900000064,
+      latitude: 30.055663500000037,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Central Fire Department",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.245582200000058,
+      latitude: 30.08524310000007,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "نقطة إطفاء الساحل - المطافي",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.190437600000052,
+      latitude: 30.056789700000024,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطافي",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.302705700000047,
+      latitude: 30.10658490000003,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Fire Fighting Station",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.327067600000078,
+      latitude: 30.118076900000062,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Fire Fighting Station",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.477314100000058,
+      latitude: 30.064886000000058,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Rehab Fire Station",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.42521830000004,
+      latitude: 29.99661080000004,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Fire Station",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.223826700000075,
+      latitude: 30.18313610000007,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Ashtrays Qalioub station",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.351441100000045,
+      latitude: 30.141388600000028,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "El Marg FirePoint",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.252576300000044,
+      latitude: 30.065363700000034,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "نقطة إطفاء مهمشة",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.262753900000064,
+      latitude: 30.055663500000037,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Central Fire Department",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.28983370000003,
+      latitude: 30.088740700000074,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Central Fire Department",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.302705700000047,
+      latitude: 30.10658490000003,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Fire Fighting Station",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.224725300000046,
+      latitude: 30.028102500000045,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Fire brigade نقطة إطفاء النيل",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.243155200000047,
+      latitude: 30.061078700000053,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "محطة مكروباصات رمسيس",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.245582200000058,
+      latitude: 30.08524310000007,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "نقطة إطفاء الساحل - المطافي",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.244199700000024,
+      latitude: 30.060323500000038,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "السجل المدني - الازبكية",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.327067600000078,
+      latitude: 30.118076900000062,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Fire Fighting Station",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.477314100000058,
+      latitude: 30.064886000000058,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Rehab Fire Station",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.262753900000064,
+      latitude: 30.055663500000037,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Central Fire Department",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.249518900000055,
+      latitude: 30.04986310000004,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "مطافئ العتبة",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.302705700000047,
+      latitude: 30.10658490000003,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Fire Fighting Station",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.245582200000058,
+      latitude: 30.08524310000007,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "نقطة إطفاء الساحل - المطافي",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.327067600000078,
+      latitude: 30.118076900000062,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Fire Fighting Station",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.250395000000026,
+      latitude: 30.051961000000063,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "El Mousky District Presidency",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.477314100000058,
+      latitude: 30.064886000000058,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Rehab Fire Station",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.351441100000045,
+      latitude: 30.141388600000028,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "El Marg FirePoint",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.42521830000004,
+      latitude: 29.99661080000004,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Fire Station",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.28983370000003,
+      latitude: 30.088740700000074,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Central Fire Department",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.262753900000064,
+      latitude: 30.055663500000037,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Central Fire Department",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.224725300000046,
+      latitude: 30.028102500000045,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Fire brigade نقطة إطفاء النيل",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.245582200000058,
+      latitude: 30.08524310000007,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "نقطة إطفاء الساحل - المطافي",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.247763500000076,
+      latitude: 30.040554100000065,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Abdin District Presidency",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.24649560000006,
+      latitude: 30.056555600000024,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Al Fady Fire Fighting & Safety Equipment",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.241457900000057,
+      latitude: 30.051126800000077,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "غازتك وسط البلد gastec",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.477314100000058,
+      latitude: 30.064886000000058,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Rehab Fire Station",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.249293700000067,
+      latitude: 30.043662400000073,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Abdin Police Department",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.246936900000037,
+      latitude: 30.063229900000067,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Cairo",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.224725300000046,
+      latitude: 30.028102500000045,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Fire brigade نقطة إطفاء النيل",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.28983370000003,
+      latitude: 30.088740700000074,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Central Fire Department",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.239735000000053,
+      latitude: 30.052079500000048,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Cooperation Station",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.262753900000064,
+      latitude: 30.055663500000037,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Central Fire Department",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.245582200000058,
+      latitude: 30.08524310000007,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "نقطة إطفاء الساحل - المطافي",
+      isMostVisited: false
+     },
+     {
+      longitude: 31.23144170000006,
+      latitude: 30.03492280000006,
+      code: 1011,
+      city: 1010,
+      cityName: "Cairo",
+      name: "Kasr El Nil Police Station",
+      isMostVisited: false
+     }
+
+  ];
+
+
+  egysafetyCategories:Category[]=[
+    { name: "Fire extinguishing points", code:1011 },
+
 
 
   ];
@@ -7503,12 +7924,12 @@ export class PlaceService {
 
 
   getPlacesRequest()  {
-    return this.placesEgypt;
+    return this.safetyPlaces;
    }
 
   getCategoriesRequest(){
 
-    return this.egyCategories;
+    return this.egysafetyCategories;
 
     }
 
@@ -7538,6 +7959,14 @@ export class PlaceService {
     return place;
   }
 
+
+  async  getsafetyPlaceByID(id: string): Promise<Place | undefined> {
+    const parsedId: number = parseInt(id, 10); // Parse the ID to a number if needed
+    // Find the place with the matching code
+    const place: Place | undefined = this.safetyPlaces.find(place => place.code === parsedId);
+
+    return place;
+  }
 
 
 

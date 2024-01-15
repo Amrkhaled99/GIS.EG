@@ -50,6 +50,9 @@ import { NotFoundComponent } from './client/layouts/not-found/not-found/not-foun
 import { ServerErrorComponent } from './client/layouts/server-error/server-error/server-error.component';
 import { DataRoundPipe } from './pipes/data-round.pipe';
 import { PlacesPageComponent } from './client/layouts/places-page/places-page.component';
+import { SafetyPageComponent } from './client/layouts/safety-page/safety-page.component';
+import { SaftyCardComponent } from './client/components/Universities/safty-card/safty-card.component';
+import { SafetyDetailsComponent } from './client/layouts/safety-details/safety-details.component';
 
 
 @NgModule({
@@ -88,6 +91,9 @@ import { PlacesPageComponent } from './client/layouts/places-page/places-page.co
     ServerErrorComponent,
     DataRoundPipe,
     PlacesPageComponent,
+    SafetyPageComponent,
+    SaftyCardComponent,
+    SafetyDetailsComponent,
 
   ],
   imports: [

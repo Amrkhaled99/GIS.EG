@@ -12,6 +12,8 @@ import { ContactUsComponent } from './client/layouts/contact-us/contact-us/conta
 import { NotFoundComponent } from './client/layouts/not-found/not-found/not-found.component';
 import { ServerErrorComponent } from './client/layouts/server-error/server-error/server-error.component';
 import { PlacesPageComponent } from './client/layouts/places-page/places-page.component';
+import { SafetyPageComponent } from './client/layouts/safety-page/safety-page.component';
+import { SafetyDetailsComponent } from './client/layouts/safety-details/safety-details.component';
 
 
 
@@ -20,12 +22,12 @@ const routes: Routes = [
   { path: '', component: HomePageComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'faqs', component: FaqsPageComponent },
-  { path: 'blogs', component: BlogsPageComponent },
+  { path: 'safety', component: SafetyPageComponent },
   { path: 'services', component: PlacesPageComponent },
   { path: 'applynow', component: ApplyPageComponent },
   { path: 'contactus', component: ContactUsComponent },
   { path: 'services/:name', component: UniversityDetailsComponent },
-  { path: 'blogs/:slug', component: BlogDetailsComponent },
+  { path: 'safety/:slug', component: SafetyDetailsComponent },
   { path: 'serverError', component: ServerErrorComponent },
 
   { path: '**', component: NotFoundComponent },

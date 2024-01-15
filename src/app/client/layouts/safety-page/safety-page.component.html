@@ -1,0 +1,185 @@
+<main>
+
+
+
+  <!-- Start Banner Area -->
+  <div class="hero-arera course-item-height" data-background="assets/img/banner/university.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="hero-course-1-text">
+            <h2>{{'nav_universities_title'| translate}}</h2>
+          </div>
+
+          <div class="course-title-breadcrumb">
+            <nav>
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a routerLink='/'>{{ 'slider_first_title' | translate}}</a>
+                </li>
+                <li class="slider-title"><span>&ensp;/&ensp;{{'nav_universities_title'|
+                    translate}}</span></li>
+
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Banner Area -->
+
+
+  <div>
+
+
+
+
+    <!--------------------- Search Area -------------------------->
+    <div class="course-bar-up-area pt-120  ">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="course-main-wrapper mb-30">
+              <div class="bar-filter">
+                <i class="flaticon-filter"></i>
+                <span>{{"Filter-title"|translate}}</span>
+                <!-- <span>(2)</span> -->
+              </div>
+
+
+
+
+              <div class="corse-bar-wrapper">
+                <div class="bar-search">
+                  <form [formGroup]="searchForm">
+                    <div class="bar-secrch-icon position-relative">
+                      <input type="text" formControlName="search" [placeholder]="'university-hint'|translate">
+
+                      <!-- <input type="text"  [(ngModel)]="searchTerm"  placeholder="Search keyword..."> -->
+                      <button type="button" type="submit"><i class="far fa-search"></i></button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!---------------------------------------------------------------->
+
+
+
+    <!--------------------- Filters Area -------------------------->
+    <section class="course-content-area pb-90">
+      <div class="container">
+        <div class="row mb-10">
+          <div class="col-xl-3 col-lg-4 col-md-8">
+
+            <!--------------------- Cities Area -------------------------->
+
+            <div class="course-sidebar-widget mb-20">
+
+              <div>
+                <h3>{{'fUniversity_Countries_title'|translate}}</h3>
+                <ul>
+                  <li *ngFor="let city of  cities;">
+                    <div class="course-sidebar-list">
+                      <form [formGroup]="countryForm" style="display: flex; ">
+                        <input formControlName="CountryFormName" class="edu-check-box" (change)="onChange($event)"
+                          [checked]="selectedCityIds.includes(city.code)" value="{{ city.code }}" type="checkbox"
+                          id="e-bus" />
+                        <label class="edu-check-label oneLine" for="e-bus">&ensp;{{ city.name
+                          }}</label>
+                      </form>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+
+            </div>
+
+
+
+
+            <!--------------------- Categories Area -------------------------->
+
+            <div class="course-sidebar-widget mb-20">
+
+              <!-- <div class="course-sidebar-info"> -->
+              <div>
+
+                <h3>{{'fUniversity_faculties_title'|translate}}</h3>
+                <ul>
+                  <li *ngFor="let category of categories">
+                    <div class="course-sidebar-list">
+                      <form [formGroup]="facultyForm" style="display: flex; ">
+                        <input formControlName="FacultyFormName" class="edu-check-box"
+                          (change)="onChangeFaculty($event)" [checked]="selectedCategoryIds.includes(category.code)"
+                          value="{{ category.code }}" type="checkbox" id="e-bus" />
+                        <label class="edu-check-label oneLine" for="e-bus">&ensp;{{
+                          category.name }}</label>
+                      </form>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+
+            </div>
+
+
+
+
+          </div>
+          <!---------------------------------------------------------------->
+
+
+          <!--------------------- Universities Card Area -------------------------->
+
+          <div class="col-xl-8 col-lg-8 col-md-12">
+
+            <div class="row">
+              <app-safty-card [placesEgypt]="places" [allUniversities]=allUniversities [itemsPerPage]=8
+                [page]=page></app-safty-card>
+            </div>
+
+
+            <!---------------------------------------------------------------->
+
+
+
+
+            <!--------------------- Pagination Area -------------------------->
+
+            <div class="d-flex justify-content-center footer">
+              <pagination-controls (pageChange)="renderPage($event)" previousLabel="" nextLabel=""
+                id="first"></pagination-controls>
+            </div>
+            <!---------------------------------------------------------------->
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- course-content-end -->
+
+  </div>
+  <!-- <div class="center-message " *ngIf="!dataAvailable">
+
+       <h3 class="Title-NoData">{{'No_University_Data_Available_Msg'| translate}}</h3>
+    </div> -->
+
+
+</main>

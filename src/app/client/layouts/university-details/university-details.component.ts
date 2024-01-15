@@ -13,10 +13,10 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
   styleUrls: ['./university-details.component.css']
 })
 export class UniversityDetailsComponent  implements OnInit {
-  
+
     // Example usage
     lastUpdate:string="";
-    
+
 
   placeId:any;
   place :Place= {} as Place;
@@ -29,7 +29,7 @@ export class UniversityDetailsComponent  implements OnInit {
     ){
 
       this.lastUpdate=this.getCurrentFormattedDate();
-      
+
     }
 
 
@@ -40,7 +40,7 @@ export class UniversityDetailsComponent  implements OnInit {
   ngOnInit(): void {
 
     this.route.queryParams.subscribe(params => {
-      this.placeId= params['id']; 
+      this.placeId= params['id'];
       console.log(this.placeId);
     });
 
@@ -49,7 +49,7 @@ export class UniversityDetailsComponent  implements OnInit {
 
 
   }
-  
+
 
   getMapUrl(): SafeResourceUrl {
     const mapUrl = `https://maps.google.com/maps?q=${this.place.latitude},${this.place.longitude}&t=&z=15&ie=UTF8&iwloc=&output=embed`;
@@ -58,14 +58,14 @@ export class UniversityDetailsComponent  implements OnInit {
 
    getCurrentFormattedDate(): string {
     const currentDate = new Date();
-  
+
     let formattedDate = new Intl.DateTimeFormat('en-US', { day: 'numeric', month: 'short', year: 'numeric' }).format(currentDate);
-  
+
     return formattedDate;
   }
-  
 
-  
+
+
   async getPlace() {
     this.placeService. getPlaceByID(this.placeId )
     .then(place => {
@@ -77,9 +77,9 @@ export class UniversityDetailsComponent  implements OnInit {
       console.error('Error:', error);
     });
 
-    
+
   }
- 
+
   renderJsFile(){
     const s=this.render2.createElement('script');
     s.type='text/javascript';
@@ -92,7 +92,7 @@ export class UniversityDetailsComponent  implements OnInit {
     const url = `/`;
     window.open(url, '_self');
   }
-  
+
 
 
 }
