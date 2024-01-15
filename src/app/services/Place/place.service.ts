@@ -7927,6 +7927,10 @@ export class PlaceService {
     return this.safetyPlaces;
    }
 
+
+  getPlaceServiceRequest()  {
+    return this.placesEgypt;
+   }
   getCategoriesRequest(){
 
     return this.egysafetyCategories;

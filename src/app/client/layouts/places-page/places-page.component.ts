@@ -229,7 +229,7 @@ async filterCategories() {
 
 
   getPlaces() {
-   this.places= this.placeService.getPlacesRequest();
+   this.places= this.placeService.getPlaceServiceRequest();
   }
 
   getCities() {

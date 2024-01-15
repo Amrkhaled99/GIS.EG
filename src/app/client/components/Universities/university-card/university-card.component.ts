@@ -29,13 +29,13 @@ export class UniversityCardComponent {
   allUniversities!: number;
 
    constructor(private dataService: DataService,private router: Router ){
- 
+
    }
 
 
 onClickAnchor(id: any,slug:any) {
 
-  
+
   const url = `/services/${slug}?id=${id}`;
   const newTab = window.open(url, '_blank');
   if (newTab !== null) {
@@ -47,7 +47,7 @@ onClickAnchor(id: any,slug:any) {
 
 
 
- 
+
 public onError(): void {
     this.imageUrl = "/assets/img/other/default-image.png";
 }
