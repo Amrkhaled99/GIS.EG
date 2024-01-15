@@ -6,14 +6,14 @@
 
 <!-- pre loader area start -->
 <div id="loading">
-    <div id="loading-center">
-        <div id="loading-center-absolute">
-            <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
-                <img src="assets/img/logo/MASA_logo_preloader.png" alt="logo-img">
-                <img class="loading-logo" src="assets/img/logo/preloader.svg" alt="">
-            </div>
-        </div>
+  <div id="loading-center">
+    <div id="loading-center-absolute">
+      <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
+        <img src="assets/img/logo/MASA_logo.svg" alt="logo-img" height="400" width="400">
+        <!-- <img class="loading-logo" src="assets/img/logo/preloader.svg" alt=""> -->
+      </div>
     </div>
+  </div>
 </div>
 <!-- pre loader area end -->
 
@@ -21,71 +21,70 @@
 
 <!-- side toggle start -->
 <div class="fix">
-    <div class="side-info">
-        <div class="side-info-content">
-            <div class="offset-widget offset-logo mb-40">
-                <div class="row align-items-center">
-                    <div class="col-9">
-                        <a (click)="onClickAnchor()">
-                            <img src="assets/img/logo/MASA_logo.svg" alt="Logo" style="height: 10px;width: 200px;">
-                        </a>
-                    </div>
-                    <div class="col-3 text-end"><button class="side-info-close"><i class="fal fa-times"></i></button>
-                    </div>
-                </div>
-            </div>
-            <div class="mobile-menu d-xl-none fix"></div>
-            <div class="offset-widget offset_menu-top mb-20 ">
-                <div class="header-menu-top-icon mb-20">
-                    <a><i class="fas fa-phone"></i>+201002190292</a>
-                    <a><i class="fal fa-envelope"></i>info@masaeducation.co</a>
-                    <!-- <i class="fal fa-map-marker-alt"></i><span>3rd Avenue, San Francisco</span> -->
-                </div>
-            </div>
-            <div class="offset-widget button mb-20">
-                <div class="user-btn-wrapper d-flex flex-column align-items-center ">
+  <div class="side-info">
+    <div class="side-info-content">
+      <div class="offset-widget offset-logo mb-40">
+        <div class="row align-items-center">
+          <div class="col-9">
+            <a (click)="onClickAnchor()">
+              <img src="assets/img/logo/MASA_logo.svg" alt="Logo" style="height: 10px;width: 200px;">
+            </a>
+          </div>
+          <div class="col-3 text-end"><button class="side-info-close"><i class="fal fa-times"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu d-xl-none fix"></div>
+      <div class="offset-widget offset_menu-top mb-20 ">
+        <div class="header-menu-top-icon mb-20">
+          <a><i class="fas fa-phone"></i>+201002190292</a>
+          <a><i class="fal fa-envelope"></i>info@masaeducation.co</a>
+          <!-- <i class="fal fa-map-marker-alt"></i><span>3rd Avenue, San Francisco</span> -->
+        </div>
+      </div>
+      <div class="offset-widget button mb-20">
+        <div class="user-btn-wrapper d-flex flex-column align-items-center ">
 
-                    <!-- <div class="enroll-btn">
+          <!-- <div class="enroll-btn">
                         <a class="edu-thard-btn" target="_blank" routerLink="/applynow">
                             {{'nav_applyNow_title'|translate}}</a>
                     </div> -->
 
-                    <div>
-                        <button class="edu-thard-btn select-language-menu dropdown-toggle" type="button"
-                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style=" display: flex;
-                            align-items: center; 
-                            justify-content: center; 
+          <div>
+            <button class="edu-thard-btn select-language-menu dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false" style=" display: flex;
+                            align-items: center;
+                            justify-content: center;
                             overflow: hidden !important;
                             width:200px;
-                            
+
                           ">
-                            <div class="text-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img"
-                                    aria-hidden="true" class="fa-language v-icon__svg">
-                                    <path
-                                        d="M12.87,15.07L10.33,12.56L10.36,12.53C12.1,10.59 13.34,8.36 14.07,6H17V4H10V2H8V4H1V6H12.17C11.5,7.92 10.44,9.75 9,11.35C8.07,10.32 7.3,9.19 6.69,8H4.69C5.42,9.63 6.42,11.17 7.67,12.56L2.58,17.58L4,19L9,14L12.11,17.11L12.87,15.07M18.5,10H16.5L12,22H14L15.12,19H19.87L21,22H23L18.5,10M15.88,17L17.5,12.67L19.12,17H15.88Z">
-                                    </path>
-                                </svg>
-                            </div>
-                        </button>
+              <div class="text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true"
+                  class="fa-language v-icon__svg">
+                  <path
+                    d="M12.87,15.07L10.33,12.56L10.36,12.53C12.1,10.59 13.34,8.36 14.07,6H17V4H10V2H8V4H1V6H12.17C11.5,7.92 10.44,9.75 9,11.35C8.07,10.32 7.3,9.19 6.69,8H4.69C5.42,9.63 6.42,11.17 7.67,12.56L2.58,17.58L4,19L9,14L12.11,17.11L12.87,15.07M18.5,10H16.5L12,22H14L15.12,19H19.87L21,22H23L18.5,10M15.88,17L17.5,12.67L19.12,17H15.88Z">
+                  </path>
+                </svg>
+              </div>
+            </button>
 
-                        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-                            <li style="text-align: center;"><a class="dropdown-item"
-                                    (click)="switchLang('en')">English</a>
-                            </li>
-                            <li style="text-align: center;"><a class="dropdown-item" (click)="switchLang('ar')">عربي
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
+            <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+              <li style="text-align: center;"><a class="dropdown-item" (click)="switchLang('en')">English</a>
+              </li>
+              <li style="text-align: center;"><a class="dropdown-item" (click)="switchLang('ar')">عربي
+                </a>
+              </li>
+            </ul>
+          </div>
 
 
 
-                </div>
-            </div>
+
         </div>
+      </div>
     </div>
+  </div>
 </div>
 <div class="offcanvas-overlay"></div>
 <div class="offcanvas-overlay-white"></div>
@@ -94,149 +93,140 @@
 
 <!-- header-area-start -->
 <header>
-    <div class="university-header-wrapper ">
-        <!--header-top-area start -->
-        <div class="header-university-top-area d-none d-lg-block">
-            <div class="container">
-                <div class="row">
+  <div class="university-header-wrapper ">
+    <!--header-top-area start -->
+    <div class="header-university-top-area d-none d-lg-block">
+      <div class="container">
+        <div class="row">
 
-                    <div class="col-xl-9 col-lg-9">
-                        <div class="header-left">
-                            <a><i class="fas fa-phone"></i>+0151561651</a>
-                            <a><i class="fal fa-envelope"></i>info@GIS.EGY.co</a>
-                            <!-- <span>3rd Avenue, San Francisco</span> -->
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3">
-                        <div class="header-right f-right">
-                            <div class="header-right-icon">
-                                <a arget="_blank"><i class="fab fa-facebook-f"></i></a>
-                                <a target="_blank"><i class="fab fa-twitter"></i></a>
-                                <a target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a target="_blank"><i class="fab fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="col-xl-9 col-lg-9">
+            <div class="header-left">
+              <a><i class="fas fa-phone"></i>+0151561651</a>
+              <a><i class="fal fa-envelope"></i>info@GIS.EGY.co</a>
+              <!-- <span>3rd Avenue, San Francisco</span> -->
             </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-3">
+            <div class="header-right f-right">
+              <div class="header-right-icon">
+                <a arget="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a target="_blank"><i class="fab fa-twitter"></i></a>
+                <a target="_blank"><i class="fab fa-instagram"></i></a>
+                <a target="_blank"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- header-top-area end -->
-        <div class="header-main3 transpaerent-header sticky-header">
-            <div class="">
-                <div class="header-main-wrapper">
-                    <div class="row align-items-center">
+      </div>
+    </div>
+    <!-- header-top-area end -->
+    <div class="header-main3 transpaerent-header sticky-header">
+      <div class="">
+        <div class="header-main-wrapper">
+          <div class="row align-items-center">
 
 
 
 
 
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 
-                            <div class="d-flex justify-content-around">
+              <div class="d-flex justify-content-around">
 
-                                <div class="d-flex">
-                                    <div class="header-logo">
-                                        <a (click)="onClickAnchor()"><img class="logo-white"
-                                                src="assets/img/logo/MASA_logo.svg" style="height: 100px;"
-                                                alt="logo"></a>
+                <div class="d-flex">
+                  <div class="header-logo">
+                    <a (click)="onClickAnchor()"><img class="logo-white" src="assets/img/logo/MASA_logo.svg"
+                        style="height: 100px;" alt="logo"></a>
 
-                                    </div>
+                  </div>
 
-                                    <div class="main-menu mr-30">
+                  <div class="main-menu mr-30">
 
-                                        <nav id="mobile-menu">
-                                            <ul>
-
-
-                                                <li class="menu-item" [routerLinkActiveOptions]="{exact: true}"
-                                                    routerLinkActive="active"><a routerLink='/'>{{
-                                                        'nav_home_title' | translate}}</a></li>
-
-                                                <li class="menu-item" routerLinkActive="active"><a
-                                                        routerLink="/about">{{
-                                                        'nav_aboutUs_title' | translate}} </a></li>
+                    <nav id="mobile-menu">
+                      <ul>
 
 
-                                                <li class="menu-item" routerLinkActive="active"><a
-                                                        routerLink="/services">
-                                                        {{ 'nav_universities_title' | translate}}</a></li>
-                                                <li class="menu-item  " routerLinkActive="active"><a
-                                                        routerLink="/blogs">{{
-                                                        'slider_blogs_title' | translate}}</a></li>
-                                                <li class="menu-item  " routerLinkActive="active"><a
-                                                        routerLink="/faqs">{{
-                                                        'nav_faqs_title' | translate}}</a></li>
-                                                <li class="menu-item" routerLinkActive="active"><a
-                                                        routerLink="/contactus">{{
-                                                        'nav_contactUs_title' | translate}} </a>
-                                            </ul>
-                                        </nav>
+                        <li class="menu-item" [routerLinkActiveOptions]="{exact: true}" routerLinkActive="active"><a
+                            routerLink='/'>{{
+                            'nav_home_title' | translate}}</a></li>
 
-                                    </div>
-
-                                </div>
+                        <li class="menu-item" routerLinkActive="active"><a routerLink="/about">{{
+                            'nav_aboutUs_title' | translate}} </a></li>
 
 
-                                <div class="my-4">
-                                    <div class="header-btn">
+                        <li class="menu-item" routerLinkActive="active"><a routerLink="/services">
+                            {{ 'nav_universities_title' | translate}}</a></li>
+                        <li class="menu-item  " routerLinkActive="active"><a routerLink="/blogs">{{
+                            'slider_blogs_title' | translate}}</a></li>
+                        <li class="menu-item  " routerLinkActive="active"><a routerLink="/faqs">{{
+                            'nav_faqs_title' | translate}}</a></li>
+                        <li class="menu-item" routerLinkActive="active"><a routerLink="/contactus">{{
+                            'nav_contactUs_title' | translate}} </a>
+                      </ul>
+                    </nav>
 
-                                        <!-- <a class="edu-thard-btn2 align-items-center d-none d-flex d-lg-block "
+                  </div>
+
+                </div>
+
+
+                <div class="my-4">
+                  <div class="header-btn">
+
+                    <!-- <a class="edu-thard-btn2 align-items-center d-none d-flex d-lg-block "
                                             target="_blank" routerLink="/applynow">
                                             {{'nav_applyNow_title'|translate}}</a>
  -->
 
 
-                                        <div class="align-items-center d-none d-flex d-lg-block">
-                                            <button class="edu-thard-btn-lang select-language-menu dropdown-toggle"
-                                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                                aria-expanded="false" style=" display: flex;
-                                                align-items: center; 
-                                                justify-content: center; 
+                    <div class="align-items-center d-none d-flex d-lg-block">
+                      <button class="edu-thard-btn-lang select-language-menu dropdown-toggle" type="button"
+                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style=" display: flex;
+                                                align-items: center;
+                                                justify-content: center;
                                                 overflow: hidden !important;
                                               ">
-                                                <div class="text-center">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        role="img" aria-hidden="true" class="fa-language v-icon__svg">
-                                                        <path
-                                                            d="M12.87,15.07L10.33,12.56L10.36,12.53C12.1,10.59 13.34,8.36 14.07,6H17V4H10V2H8V4H1V6H12.17C11.5,7.92 10.44,9.75 9,11.35C8.07,10.32 7.3,9.19 6.69,8H4.69C5.42,9.63 6.42,11.17 7.67,12.56L2.58,17.58L4,19L9,14L12.11,17.11L12.87,15.07M18.5,10H16.5L12,22H14L15.12,19H19.87L21,22H23L18.5,10M15.88,17L17.5,12.67L19.12,17H15.88Z">
-                                                        </path>
-                                                    </svg>
-                                                </div>
-                                            </button>
-
-                                            <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-                                                <li style="text-align: center;"><a class="dropdown-item"
-                                                        (click)="switchLang('en')">English</a>
-                                                </li>
-                                                <li style="text-align: center;"><a class="dropdown-item"
-                                                        (click)="switchLang('ar')">عربي </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-
-                                        <div class="menu-bar ml-20">
-                                            <a class="side-toggle header-3" href="javascript:void(0)">
-                                                <div class="bar-icon header-3">
-                                                    <span></span>
-                                                    <span></span>
-                                                    <span></span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-
-
-                            </div>
+                        <div class="text-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true"
+                            class="fa-language v-icon__svg">
+                            <path
+                              d="M12.87,15.07L10.33,12.56L10.36,12.53C12.1,10.59 13.34,8.36 14.07,6H17V4H10V2H8V4H1V6H12.17C11.5,7.92 10.44,9.75 9,11.35C8.07,10.32 7.3,9.19 6.69,8H4.69C5.42,9.63 6.42,11.17 7.67,12.56L2.58,17.58L4,19L9,14L12.11,17.11L12.87,15.07M18.5,10H16.5L12,22H14L15.12,19H19.87L21,22H23L18.5,10M15.88,17L17.5,12.67L19.12,17H15.88Z">
+                            </path>
+                          </svg>
                         </div>
+                      </button>
+
+                      <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+                        <li style="text-align: center;"><a class="dropdown-item" (click)="switchLang('en')">English</a>
+                        </li>
+                        <li style="text-align: center;"><a class="dropdown-item" (click)="switchLang('ar')">عربي </a>
+                        </li>
+                      </ul>
                     </div>
+
+
+                    <div class="menu-bar ml-20">
+                      <a class="side-toggle header-3" href="javascript:void(0)">
+                        <div class="bar-icon header-3">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+
                 </div>
+
+
+
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </header>
 <!-- header-aea-end -->
